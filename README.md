@@ -2,7 +2,7 @@
 
 This repository contains reproduction and failure analysis of the MOAR optimizer within the DocETL.
 
-Due to regional constraints in Mainland China, this project was adapted to run on my **local Windows laptop**. These constraints include strict billing policies that prohibit mainland credit card payments for the official OpenAI API, compounded by network access restrictions and the lack of a proxy-enabled Linux server. To bypass the payment and network hurdles while still leveraging state-of-the-art models, I utilized the **OpenRouter API** as a unified endpoint.
+Due to regional constraints in Mainland China, this project was adapted to run on my **local Windows laptop**. These constraints include strict billing policies that prohibit mainland credit card payments for the official OpenAI API, compounded by network access restrictions and the lack of a proxy-enabled Linux server. To bypass the payment and network hurdles, I utilized the **OpenRouter API** as a unified endpoint.
 
 ## Environment Reproduction
 
