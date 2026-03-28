@@ -1,0 +1,652 @@
+[
+  {
+    "ip_address": [
+      "166.237.10.20"
+    ],
+    "split_extract_ip_id": "e26b6847-f935-46af-9d06-90bbe4c9eddb",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 1,
+    "log": "2023-10-02 05:49:00 FATAL [166.237.10.20] - File '/var/www/html/index.php' not found.",
+    "log_chunk": "2023-10-02 05:49:00 FATAL [166.237.10.20] - File '/var/www/html/index.php' not found.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "79.205.152.231"
+    ],
+    "split_extract_ip_id": "925b2214-b558-46e8-95ea-489302935a5a",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 8,
+    "log": "2023-10-05 07:32:00 WARN [79.205.152.231] - Successfully connected to third-party API.",
+    "log_chunk": "2023-10-05 07:32:00 WARN [79.205.152.231] - Successfully connected to third-party API.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "51.141.192.244"
+    ],
+    "split_extract_ip_id": "2aa91244-b601-4f4e-8361-1671dda98ec3",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 6,
+    "log": "2023-10-02 14:07:00 ERROR [51.141.192.244] - Database connection failed due to timeout.",
+    "log_chunk": "2023-10-02 14:07:00 ERROR [51.141.192.244] - Database connection failed due to timeout.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "42.249.213.8"
+    ],
+    "split_extract_ip_id": "f33d1d4a-cd54-4f8e-b795-3d9eb01a6170",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 3,
+    "log": "2023-10-01 10:59:00 WARN [42.249.213.8] - Failed to authenticate token.",
+    "log_chunk": "2023-10-01 10:59:00 WARN [42.249.213.8] - Failed to authenticate token.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "119.220.135.147"
+    ],
+    "split_extract_ip_id": "970c1e68-5a02-4b2f-8897-24a2320a3d42",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 20,
+    "log": "2023-10-01 19:49:00 WARN [119.220.135.147] - Password reset requested.",
+    "log_chunk": "2023-10-01 19:49:00 WARN [119.220.135.147] - Password reset requested.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "56.14.21.230"
+    ],
+    "split_extract_ip_id": "c2f373df-4b97-4c1b-b589-3c98625c606f",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 2,
+    "log": "2023-10-05 00:20:00 INFO [56.14.21.230] - Password reset requested.",
+    "log_chunk": "2023-10-05 00:20:00 INFO [56.14.21.230] - Password reset requested.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "29.252.177.99"
+    ],
+    "split_extract_ip_id": "3ec972b0-793e-48e3-a408-1de3593f8b3b",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 22,
+    "log": "2023-10-03 22:45:00 INFO [29.252.177.99] - Successfully connected to third-party API.",
+    "log_chunk": "2023-10-03 22:45:00 INFO [29.252.177.99] - Successfully connected to third-party API.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "178.94.22.219"
+    ],
+    "split_extract_ip_id": "6e205ba3-9d45-4df4-ba4c-7e4af9d3cbd2",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 11,
+    "log": "2023-10-04 20:41:00 FATAL [178.94.22.219] - Failed to authenticate token.",
+    "log_chunk": "2023-10-04 20:41:00 FATAL [178.94.22.219] - Failed to authenticate token.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "116.191.163.190"
+    ],
+    "split_extract_ip_id": "d806f0d4-85e5-4ad9-bfbf-01006eb3c0d9",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 14,
+    "log": "2023-10-03 07:19:00 DEBUG [116.191.163.190] - Successfully connected to third-party API.",
+    "log_chunk": "2023-10-03 07:19:00 DEBUG [116.191.163.190] - Successfully connected to third-party API.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "10.224.139.96"
+    ],
+    "split_extract_ip_id": "7f7fdbc3-e36a-4f47-a268-7ab3a348d5d0",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 32,
+    "log": "2023-10-04 18:18:00 FATAL [10.224.139.96] - Ping response received in 166ms.",
+    "log_chunk": "2023-10-04 18:18:00 FATAL [10.224.139.96] - Ping response received in 166ms.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "192.168.1.106"
+    ],
+    "split_extract_ip_id": "279e771f-1402-4b05-9756-d5010736d87a",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 12,
+    "log": "2023-10-03 01:58:00 FATAL [192.168.1.106] - Invalid credentials provided by client.",
+    "log_chunk": "2023-10-03 01:58:00 FATAL [192.168.1.106] - Invalid credentials provided by client.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "10.0.0.76"
+    ],
+    "split_extract_ip_id": "00a1aede-e8d5-4d47-b422-2469c9336dde",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 10,
+    "log": "2023-10-02 20:20:00 ERROR [10.0.0.76] - Password reset requested.",
+    "log_chunk": "2023-10-02 20:20:00 ERROR [10.0.0.76] - Password reset requested.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "150.120.2.184"
+    ],
+    "split_extract_ip_id": "764006b4-9fd6-46fd-889a-107faaaa1ddd",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 27,
+    "log": "2023-10-04 17:03:00 ERROR [150.120.2.184] - User logged in successfully.",
+    "log_chunk": "2023-10-04 17:03:00 ERROR [150.120.2.184] - User logged in successfully.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "174.165.46.80"
+    ],
+    "split_extract_ip_id": "0a1ed346-e6ef-4671-ab64-bd149e6f15a2",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 5,
+    "log": "2023-10-04 10:42:00 ERROR [174.165.46.80] - Successfully connected to third-party API.",
+    "log_chunk": "2023-10-04 10:42:00 ERROR [174.165.46.80] - Successfully connected to third-party API.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "192.168.1.26"
+    ],
+    "split_extract_ip_id": "e6dec562-ba86-453d-a0d8-f1afa50e15c4",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 13,
+    "log": "2023-10-05 08:38:00 DEBUG [192.168.1.26] - Password reset requested.",
+    "log_chunk": "2023-10-05 08:38:00 DEBUG [192.168.1.26] - Password reset requested.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "219.25.59.222"
+    ],
+    "split_extract_ip_id": "842ce777-85e8-4b3e-94c2-548d0344384b",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 25,
+    "log": "2023-10-02 14:08:00 ERROR [219.25.59.222] - Successfully connected to third-party API.",
+    "log_chunk": "2023-10-02 14:08:00 ERROR [219.25.59.222] - Successfully connected to third-party API.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "172.16.254.54"
+    ],
+    "split_extract_ip_id": "62f789e2-891e-4d69-81f9-05f6be428240",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 42,
+    "log": "2023-10-04 12:23:00 FATAL [172.16.254.54] - Background job completed.",
+    "log_chunk": "2023-10-04 12:23:00 FATAL [172.16.254.54] - Background job completed.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "3.154.72.77"
+    ],
+    "split_extract_ip_id": "00e24d8b-7284-4ca0-8f14-9bd42ef868e5",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 28,
+    "log": "2023-10-04 11:47:00 FATAL [3.154.72.77] - Ping response received in 147ms.",
+    "log_chunk": "2023-10-04 11:47:00 FATAL [3.154.72.77] - Ping response received in 147ms.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "11.184.248.199"
+    ],
+    "split_extract_ip_id": "47a24ca6-9a3c-480a-bdf9-2d642032e7fa",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 15,
+    "log": "2023-10-05 01:43:00 FATAL [11.184.248.199] - Background job completed.",
+    "log_chunk": "2023-10-05 01:43:00 FATAL [11.184.248.199] - Background job completed.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "192.168.1.77"
+    ],
+    "split_extract_ip_id": "b96b459f-7746-4c0f-b74b-6d5d376d4c21",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 41,
+    "log": "2023-10-02 15:24:00 INFO [192.168.1.77] - API rate limit exceeded.",
+    "log_chunk": "2023-10-02 15:24:00 INFO [192.168.1.77] - API rate limit exceeded.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "128.111.42.210"
+    ],
+    "split_extract_ip_id": "95d47c66-e872-4c43-b22b-27b73fae09ed",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 39,
+    "log": "2023-10-02 22:45:00 INFO [128.111.42.210] - Password reset requested.",
+    "log_chunk": "2023-10-02 22:45:00 INFO [128.111.42.210] - Password reset requested.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "192.168.1.142"
+    ],
+    "split_extract_ip_id": "68f90134-cda5-4f76-8872-766c5cfd92d6",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 35,
+    "log": "2023-10-04 12:43:00 ERROR [192.168.1.142] - User logged in successfully.",
+    "log_chunk": "2023-10-04 12:43:00 ERROR [192.168.1.142] - User logged in successfully.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "10.0.0.121"
+    ],
+    "split_extract_ip_id": "6e1b632e-09dd-4264-84c2-1073f590749e",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 17,
+    "log": "2023-10-03 10:25:00 WARN [10.0.0.121] - Background job completed.",
+    "log_chunk": "2023-10-03 10:25:00 WARN [10.0.0.121] - Background job completed.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "24.121.111.146"
+    ],
+    "split_extract_ip_id": "9d47ef2c-b6c5-49c8-ab9e-6ce2230f2f76",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 36,
+    "log": "2023-10-02 06:53:00 ERROR [24.121.111.146] - Cache miss for key: user_profile_107.",
+    "log_chunk": "2023-10-02 06:53:00 ERROR [24.121.111.146] - Cache miss for key: user_profile_107.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "58.243.149.37"
+    ],
+    "split_extract_ip_id": "83594d12-cb26-4bb5-9739-e94e09391901",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 31,
+    "log": "2023-10-02 08:28:00 ERROR [58.243.149.37] - File '/var/www/html/index.php' not found.",
+    "log_chunk": "2023-10-02 08:28:00 ERROR [58.243.149.37] - File '/var/www/html/index.php' not found.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "90.218.101.67"
+    ],
+    "split_extract_ip_id": "aa7d0a1b-54da-4af5-a27c-8f53ace83787",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 30,
+    "log": "2023-10-03 09:01:00 DEBUG [90.218.101.67] - User logged in successfully.",
+    "log_chunk": "2023-10-03 09:01:00 DEBUG [90.218.101.67] - User logged in successfully.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "10.0.0.5"
+    ],
+    "split_extract_ip_id": "7c1cc9d3-0ae9-4799-8e7f-f827158dcf86",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 19,
+    "log": "2023-10-02 23:38:00 WARN [10.0.0.5] - New user registration.",
+    "log_chunk": "2023-10-02 23:38:00 WARN [10.0.0.5] - New user registration.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "10.0.0.129"
+    ],
+    "split_extract_ip_id": "5066da4b-3ca0-49a2-b0af-3666486dd6d8",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 21,
+    "log": "2023-10-04 04:36:00 INFO [10.0.0.129] - Password reset requested.",
+    "log_chunk": "2023-10-04 04:36:00 INFO [10.0.0.129] - Password reset requested.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "10.0.0.217"
+    ],
+    "split_extract_ip_id": "396f5e59-15d2-4094-9eb2-8a4be6baf9aa",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 46,
+    "log": "2023-10-04 21:51:00 FATAL [10.0.0.217] - Payment processed successfully. Transaction ID: TXN-9894.",
+    "log_chunk": "2023-10-04 21:51:00 FATAL [10.0.0.217] - Payment processed successfully. Transaction ID: TXN-9894.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "10.0.0.115"
+    ],
+    "split_extract_ip_id": "fa2fb279-4334-4550-90fb-6f668878bd74",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 16,
+    "log": "2023-10-03 10:03:00 INFO [10.0.0.115] - File '/var/www/html/index.php' not found.",
+    "log_chunk": "2023-10-03 10:03:00 INFO [10.0.0.115] - File '/var/www/html/index.php' not found.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "192.168.1.41"
+    ],
+    "split_extract_ip_id": "5e585500-84a0-43c3-b32d-6ef01bfd603b",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 37,
+    "log": "2023-10-03 10:18:00 ERROR [192.168.1.41] - Successfully connected to third-party API.",
+    "log_chunk": "2023-10-03 10:18:00 ERROR [192.168.1.41] - Successfully connected to third-party API.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "10.0.0.160"
+    ],
+    "split_extract_ip_id": "4888abd8-6f83-4d7d-b2bb-28f068f1c6e1",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 33,
+    "log": "2023-10-03 04:39:00 INFO [10.0.0.160] - Cache miss for key: user_profile_103.",
+    "log_chunk": "2023-10-03 04:39:00 INFO [10.0.0.160] - Cache miss for key: user_profile_103.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "172.16.254.220"
+    ],
+    "split_extract_ip_id": "7f354038-2a06-4e49-bd3d-61fecb651d1b",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 48,
+    "log": "2023-10-05 08:59:00 ERROR [172.16.254.220] - API rate limit exceeded.",
+    "log_chunk": "2023-10-05 08:59:00 ERROR [172.16.254.220] - API rate limit exceeded.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "33.230.11.128"
+    ],
+    "split_extract_ip_id": "1cb3dc40-8956-445e-9fe7-5af1aa10cc1f",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 50,
+    "log": "2023-10-04 03:35:00 ERROR [33.230.11.128] - Session expired for user.",
+    "log_chunk": "2023-10-04 03:35:00 ERROR [33.230.11.128] - Session expired for user.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "192.168.1.110"
+    ],
+    "split_extract_ip_id": "ea32970e-2023-4fe7-a866-373415eab045",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 47,
+    "log": "2023-10-04 04:16:00 WARN [192.168.1.110] - Database connection failed due to timeout.",
+    "log_chunk": "2023-10-04 04:16:00 WARN [192.168.1.110] - Database connection failed due to timeout.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "172.16.254.166"
+    ],
+    "split_extract_ip_id": "575eab06-57d9-42e1-a4ee-ba0970420199",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 45,
+    "log": "2023-10-03 12:33:00 FATAL [172.16.254.166] - Invalid credentials provided by client.",
+    "log_chunk": "2023-10-03 12:33:00 FATAL [172.16.254.166] - Invalid credentials provided by client.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "152.0.236.114"
+    ],
+    "split_extract_ip_id": "c4327875-069d-4a62-be49-6bc713673022",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 9,
+    "log": "2023-10-05 06:45:00 INFO [152.0.236.114] - Background job completed.",
+    "log_chunk": "2023-10-05 06:45:00 INFO [152.0.236.114] - Background job completed.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "75.83.16.213"
+    ],
+    "split_extract_ip_id": "42fb31d4-794d-4ccf-be14-8d980d0e9724",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 40,
+    "log": "2023-10-01 09:17:00 FATAL [75.83.16.213] - Password reset requested.",
+    "log_chunk": "2023-10-01 09:17:00 FATAL [75.83.16.213] - Password reset requested.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "10.0.0.202"
+    ],
+    "split_extract_ip_id": "5898fe94-5cf6-4bf0-9380-29ead8b03856",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 44,
+    "log": "2023-10-02 12:26:00 ERROR [10.0.0.202] - Cache miss for key: user_profile_151.",
+    "log_chunk": "2023-10-02 12:26:00 ERROR [10.0.0.202] - Cache miss for key: user_profile_151.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "172.16.254.17"
+    ],
+    "split_extract_ip_id": "eb4d4591-46d8-49bd-8f60-0613f40f2a67",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 4,
+    "log": "2023-10-04 13:24:00 ERROR [172.16.254.17] - User logged in successfully.",
+    "log_chunk": "2023-10-04 13:24:00 ERROR [172.16.254.17] - User logged in successfully.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "38.136.63.20"
+    ],
+    "split_extract_ip_id": "60ae9124-b6e7-4e51-85ae-a9531b8fe8f8",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 38,
+    "log": "2023-10-04 10:59:00 INFO [38.136.63.20] - File '/var/www/html/index.php' not found.",
+    "log_chunk": "2023-10-04 10:59:00 INFO [38.136.63.20] - File '/var/www/html/index.php' not found.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "215.238.239.115"
+    ],
+    "split_extract_ip_id": "885898ef-f732-4d67-9db2-c5f01b59978c",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 26,
+    "log": "2023-10-01 08:17:00 DEBUG [215.238.239.115] - Session expired for user.",
+    "log_chunk": "2023-10-01 08:17:00 DEBUG [215.238.239.115] - Session expired for user.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "172.16.254.122"
+    ],
+    "split_extract_ip_id": "055ab2c0-fa25-45f8-8374-21a6ae749b9d",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 7,
+    "log": "2023-10-02 22:27:00 DEBUG [172.16.254.122] - Successfully connected to third-party API.",
+    "log_chunk": "2023-10-02 22:27:00 DEBUG [172.16.254.122] - Successfully connected to third-party API.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "10.0.0.82"
+    ],
+    "split_extract_ip_id": "219359cc-6260-4a04-ad26-9e119e812ce3",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 49,
+    "log": "2023-10-04 21:26:00 ERROR [10.0.0.82] - Cache miss for key: user_profile_438.",
+    "log_chunk": "2023-10-04 21:26:00 ERROR [10.0.0.82] - Cache miss for key: user_profile_438.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "188.161.114.55"
+    ],
+    "split_extract_ip_id": "0f71feb2-c7c0-44ed-91e3-d4fe3c44e4c2",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 23,
+    "log": "2023-10-02 11:11:00 FATAL [188.161.114.55] - Invalid credentials provided by client.",
+    "log_chunk": "2023-10-02 11:11:00 FATAL [188.161.114.55] - Invalid credentials provided by client.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "43.14.227.55"
+    ],
+    "split_extract_ip_id": "39cd2b4f-e6ea-4d7e-b42e-6b2fe94ce45c",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 24,
+    "log": "2023-10-04 06:01:00 DEBUG [43.14.227.55] - Invalid credentials provided by client.",
+    "log_chunk": "2023-10-04 06:01:00 DEBUG [43.14.227.55] - Invalid credentials provided by client.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "190.31.240.46"
+    ],
+    "split_extract_ip_id": "43ad35c1-06d4-4504-ae33-a6934c17bc03",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 29,
+    "log": "2023-10-04 16:26:00 WARN [190.31.240.46] - User logged in successfully.",
+    "log_chunk": "2023-10-04 16:26:00 WARN [190.31.240.46] - User logged in successfully.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "51.251.111.201"
+    ],
+    "split_extract_ip_id": "0ebe4bd3-84ca-4fa3-b999-2f2ff845ae1a",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 43,
+    "log": "2023-10-03 12:42:00 WARN [51.251.111.201] - Cache miss for key: user_profile_178.",
+    "log_chunk": "2023-10-03 12:42:00 WARN [51.251.111.201] - Cache miss for key: user_profile_178.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "144.70.158.216"
+    ],
+    "split_extract_ip_id": "6c894c21-8fb6-458e-ac16-10c90d49f67c",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 34,
+    "log": "2023-10-02 23:39:00 INFO [144.70.158.216] - Session expired for user.",
+    "log_chunk": "2023-10-02 23:39:00 INFO [144.70.158.216] - Session expired for user.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  },
+  {
+    "ip_address": [
+      "192.168.1.213"
+    ],
+    "split_extract_ip_id": "30c36537-795d-4c0d-bdb8-ca1f903f75e9",
+    "_counts_prereduce_reduce_extract_ip": 1,
+    "id": 18,
+    "log": "2023-10-02 14:57:00 FATAL [192.168.1.213] - Session expired for user.",
+    "log_chunk": "2023-10-02 14:57:00 FATAL [192.168.1.213] - Session expired for user.",
+    "split_extract_ip_chunk_num": 1,
+    "_topk_extract_ip_chunks_rank": 1,
+    "_topk_extract_ip_chunks_score": 0.0
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "optimizer": "moar",
+  "input_pipeline": "pipeline.yaml",
+  "model": "gpt-4o",
+  "max_iterations": 15,
+  "exploration_weight": 1.414,
+  "save_dir": "C:\\Users\\Hydrochloric\\Desktop\\mini-project\\reproduce_moar_2\\results\\moar_optimization_html",
+  "dataset": "html_docs",
+  "start_time": "2026-03-27T17:48:28.848903",
+  "end_time": "2026-03-27T17:57:09.795636",
+  "duration_seconds": 520.946733,
+  "num_best_nodes": 2,
+  "total_nodes_explored": 0,
+  "total_search_cost": 1.0973872499999997,
+  "evaluation_file": "C:\\Users\\Hydrochloric\\Desktop\\mini-project\\reproduce_moar_2\\results\\moar_optimization_html\\evaluation_metrics.json",
+  "pareto_frontier_file": "C:\\Users\\Hydrochloric\\Desktop\\mini-project\\reproduce_moar_2\\results\\moar_optimization_html\\pareto_frontier.json"
+}

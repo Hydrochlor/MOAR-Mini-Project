@@ -1,0 +1,94 @@
+datasets:
+  html_docs:
+    path: C:\Users\Hydrochloric\Desktop\mini-project\reproduce_moar_2\html_data.json
+    type: file
+default_model: gpt-4o-mini
+bypass_cache: true
+optimizer_config:
+  type: moar
+  dataset_path: html_data.json
+  save_dir: results/moar_optimization_html
+  available_models:
+  - gpt-4o-mini
+  - gpt-4o
+  - gpt-5-mini
+  evaluation_file: evaluate_html.py
+  metric_key: html_clean_score
+  max_iterations: 15
+  model: gpt-4o
+system_prompt:
+  dataset_description: A dataset containing text scraped from web pages, mixed with
+    HTML tags.
+  persona: A data engineer cleaning text data for natural language processing.
+operations:
+- name: split_strip_html
+  type: split
+  split_key: raw_html
+  method: token_count
+  method_kwargs:
+    num_tokens: 15000
+    model: gpt-4o-mini
+- name: gather_strip_html
+  type: gather
+  content_key: raw_html_chunk
+  doc_id_key: split_strip_html_id
+  order_key: split_strip_html_chunk_num
+  peripheral_chunks:
+    previous:
+      head:
+        count: 1
+        content_key: full_content_chunk
+      middle: {}
+      tail:
+        count: 0
+    next:
+      head:
+        count: 0
+      middle: {}
+      tail:
+        count: 0
+- name: map_strip_html_chunks
+  type: map
+  prompt: 'You are analyzing a chunk of a larger document. Extract the plain text
+    from the following HTML content by removing all HTML tags. Do not add any extra
+    commentary, just return the cleaned text.
+
+
+    HTML content:
+
+    {{ input.raw_html_chunk_rendered }}
+
+    '
+  model: gpt-4o-mini
+  litellm_completion_kwargs:
+    temperature: 0
+  output:
+    schema:
+      clean_text: str
+- name: reduce_strip_html
+  type: reduce
+  reduce_key: split_strip_html_id
+  prompt: 'Combine results from multiple document chunks: Extract the plain text by
+    removing all HTML tags from each input. Gather the cleaned text from each chunk:{%
+    for input in inputs %} {{ input.clean_text }}{% endfor %}. Deduplicate and return
+    the comprehensive combined text.'
+  model: gpt-4o-mini
+  litellm_completion_kwargs:
+    temperature: 0
+  output:
+    schema:
+      clean_text: str
+  associative: false
+  pass_through: true
+pipeline:
+  steps:
+  - name: clean_web_data
+    input: html_docs
+    operations:
+    - split_strip_html
+    - gather_strip_html
+    - map_strip_html_chunks
+    - reduce_strip_html
+  output:
+    type: file
+    path: C:\Users\Hydrochloric\Desktop\mini-project\reproduce_moar_2\results\moar_optimization_html\pipeline_11.json

@@ -1,0 +1,170 @@
+[
+  {
+    "file": "pipeline_gpt-4o-mini.json",
+    "ip_extraction_score": 50,
+    "node_id": 1,
+    "cost": 0.0021727500000000006,
+    "visits": 36,
+    "value": 50.0,
+    "moar_accuracy": 50,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_4.json",
+    "ip_extraction_score": 50,
+    "node_id": 4,
+    "cost": 0.004736549999999998,
+    "visits": 1,
+    "value": 0,
+    "moar_accuracy": 50,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_6.json",
+    "ip_extraction_score": 50,
+    "node_id": 6,
+    "cost": 0.00255525,
+    "visits": 2,
+    "value": 0,
+    "moar_accuracy": 50,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_5.json",
+    "ip_extraction_score": 50,
+    "node_id": 5,
+    "cost": 0.07337145000000003,
+    "visits": 24,
+    "value": 50.0,
+    "moar_accuracy": 50,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_7.json",
+    "ip_extraction_score": 50,
+    "node_id": 7,
+    "cost": 0.0021727500000000006,
+    "visits": 2,
+    "value": 0,
+    "moar_accuracy": 50,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_8.json",
+    "ip_extraction_score": 50,
+    "node_id": 8,
+    "cost": 0.0,
+    "visits": 13,
+    "value": 50.0,
+    "moar_accuracy": 50,
+    "on_frontier": true,
+    "rank": 1,
+    "accuracy_metric": "ip_extraction_score"
+  },
+  {
+    "file": "pipeline_9.json",
+    "ip_extraction_score": 50,
+    "node_id": 9,
+    "cost": 0.0023227500000000006,
+    "visits": 1,
+    "value": 0,
+    "moar_accuracy": 50,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_10.json",
+    "ip_extraction_score": 50,
+    "node_id": 10,
+    "cost": 0.07735439999999999,
+    "visits": 1,
+    "value": 0,
+    "moar_accuracy": 50,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_11.json",
+    "ip_extraction_score": 50,
+    "node_id": 11,
+    "cost": 0.004347750000000002,
+    "visits": 2,
+    "value": 0,
+    "moar_accuracy": 50,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_13.json",
+    "ip_extraction_score": 50,
+    "node_id": 13,
+    "cost": 0.0039789000000000005,
+    "visits": 1,
+    "value": 0,
+    "moar_accuracy": 50,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_12.json",
+    "ip_extraction_score": 50,
+    "node_id": 12,
+    "cost": 0.09180399999999997,
+    "visits": 1,
+    "value": 0,
+    "moar_accuracy": 50,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_14.json",
+    "ip_extraction_score": 50,
+    "node_id": 14,
+    "cost": 0.0,
+    "visits": 1,
+    "value": 0,
+    "moar_accuracy": 50,
+    "on_frontier": true,
+    "rank": 2,
+    "accuracy_metric": "ip_extraction_score"
+  },
+  {
+    "file": "pipeline_15.json",
+    "ip_extraction_score": 50,
+    "node_id": 15,
+    "cost": 0.00240525,
+    "visits": 1,
+    "value": 0,
+    "moar_accuracy": 50,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_16.json",
+    "ip_extraction_score": 50,
+    "node_id": 16,
+    "cost": 0.0,
+    "visits": 1,
+    "value": 0,
+    "moar_accuracy": 50,
+    "on_frontier": true,
+    "rank": 3,
+    "accuracy_metric": "ip_extraction_score"
+  },
+  {
+    "file": "pipeline_17.json",
+    "ip_extraction_score": 50,
+    "node_id": 17,
+    "cost": 0.0,
+    "visits": 1,
+    "value": 0,
+    "moar_accuracy": 50,
+    "on_frontier": true,
+    "rank": 4,
+    "accuracy_metric": "ip_extraction_score"
+  },
+  {
+    "file": "pipeline_18.json",
+    "ip_extraction_score": 50,
+    "node_id": 18,
+    "cost": 0.004695450000000002,
+    "visits": 1,
+    "value": 0,
+    "moar_accuracy": 50,
+    "on_frontier": false
+  }
+]

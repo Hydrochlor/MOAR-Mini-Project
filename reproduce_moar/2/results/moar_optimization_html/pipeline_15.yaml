@@ -1,0 +1,84 @@
+datasets:
+  html_docs:
+    path: C:\Users\Hydrochloric\Desktop\mini-project\reproduce_moar_2\html_data.json
+    type: file
+default_model: gpt-4o-mini
+bypass_cache: true
+optimizer_config:
+  type: moar
+  dataset_path: html_data.json
+  save_dir: results/moar_optimization_html
+  available_models:
+  - gpt-4o-mini
+  - gpt-4o
+  - gpt-5-mini
+  evaluation_file: evaluate_html.py
+  metric_key: html_clean_score
+  max_iterations: 15
+  model: gpt-4o
+system_prompt:
+  dataset_description: A dataset containing text scraped from web pages, mixed with
+    HTML tags.
+  persona: A data engineer cleaning text data for natural language processing.
+operations:
+- name: split_strip_html
+  type: split
+  split_key: raw_html
+  method: token_count
+  method_kwargs:
+    num_tokens: 10000
+    model: gpt-4o-mini
+- name: topk_strip_html_chunks
+  type: topk
+  method: fts
+  k: 7
+  keys:
+  - raw_html_chunk
+  query: html tags remove clean extract text formatting
+  stratify_key:
+  - split_strip_html_id
+- name: reduce_strip_html
+  type: reduce
+  reduce_key: split_strip_html_id
+  prompt: 'Extract the plain text from the following HTML content by removing all
+    HTML tags.
+
+    When removing tags, replace them with a single space ('' '') to prevent adjacent
+    words from merging together (e.g., preventing "</div><div>" from causing word
+    smashing).
+
+    Do not add any extra commentary, just return the cleaned text.
+
+
+    HTML content:
+
+    the top {{ inputs|length }} most relevant chunks from the document (ordered by
+    relevance):
+
+    {% for input in inputs|sort(attribute=''_topk_strip_html_chunks_rank'') %}
+
+    Chunk (Rank {{ input._topk_strip_html_chunks_rank }}, Score {{ input._topk_strip_html_chunks_score
+    }}):
+
+    {{ input.raw_html_chunk }}
+
+    {% endfor %}'
+  model: gpt-4o-mini
+  litellm_completion_kwargs:
+    temperature: 0
+  output:
+    schema:
+      clean_text: str
+  associative: false
+  pass_through: true
+pipeline:
+  steps:
+  - name: clean_web_data
+    input: html_docs
+    operations:
+    - split_strip_html
+    - topk_strip_html_chunks
+    - reduce_strip_html
+  output:
+    type: file
+    path: C:\Users\Hydrochloric\Desktop\mini-project\reproduce_moar_2\results\moar_optimization_html\pipeline_15.json

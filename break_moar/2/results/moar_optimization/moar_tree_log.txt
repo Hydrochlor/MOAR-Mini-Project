@@ -1,0 +1,967 @@
+Search Graph Visits and Values Log
+Root YAML: pipeline.yaml
+Max iterations: 20
+==================================================
+
+==================================================
+ITERATION 0
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- deterministic_doc_compression: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- chunk_header_summary: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_summarization: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- swap_with_code: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- reduce_gleaning: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- reduce_chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- arbitrary_rewrite: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- cascade_filtering: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- isolating_subtasks: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- clarify_instructions: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- take_head_tail: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+
+Tree Structure:
+Node ID: 0, Visits: 2, Value: 0, Action: ROOT
+  Node ID: 1, Visits: 1, Value: 0, Action: change to gpt-4o-mini
+  Node ID: 2, Visits: 1, Value: 0, Action: change to gpt-4o
+
+Total search cost: $0.00
+
+==================================================
+ITERATION 1
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- deterministic_doc_compression: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- chunk_header_summary: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_summarization: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 1.0 uses, avg change in cost: +0.99, avg change in accuracy: -37.0000
+- swap_with_code: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- reduce_gleaning: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- reduce_chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- arbitrary_rewrite: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- cascade_filtering: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- isolating_subtasks: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 1.0 uses, avg change in cost: +0.01, avg change in accuracy: -213.0000
+- clarify_instructions: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- take_head_tail: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+
+Tree Structure:
+Node ID: 0, Visits: 7, Value: -250, Action: ROOT
+  Node ID: 1, Visits: 3, Value: 0, Action: change to gpt-4o-mini
+    Node ID: 1-1-acc, Visits: 0, Value: 0, Action: doc_chunking
+    Node ID: 1-2-acc, Visits: 0, Value: 0, Action: doc_chunking
+    Node ID: 1-1-cost, Visits: 0, Value: 0, Action: deterministic_doc_compression
+    Node ID: 1-2-cost, Visits: 0, Value: 0, Action: deterministic_doc_compression
+  Node ID: 2, Visits: 4, Value: -250, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -37, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -213, Action: doc_chunking_topk
+    Node ID: 2-1-acc, Visits: 0, Value: 0, Action: clarify_instructions
+    Node ID: 2-2-acc, Visits: 0, Value: 0, Action: clarify_instructions
+
+Total search cost: $2.54
+
+==================================================
+ITERATION 2
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- deterministic_doc_compression: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- chunk_header_summary: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_summarization: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 1.0 uses, avg change in cost: +0.99, avg change in accuracy: -37.0000
+- swap_with_code: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- reduce_gleaning: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- reduce_chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- arbitrary_rewrite: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- cascade_filtering: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- isolating_subtasks: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 1.0 uses, avg change in cost: +0.01, avg change in accuracy: -213.0000
+- clarify_instructions: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: +5.0000
+- take_head_tail: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+
+Tree Structure:
+Node ID: 0, Visits: 7, Value: -243, Action: ROOT
+  Node ID: 1, Visits: 3, Value: 0, Action: change to gpt-4o-mini
+    Node ID: 1-1-acc, Visits: 0, Value: 0, Action: doc_chunking
+    Node ID: 1-2-acc, Visits: 0, Value: 0, Action: doc_chunking
+    Node ID: 1-1-cost, Visits: 0, Value: 0, Action: deterministic_doc_compression
+    Node ID: 1-2-cost, Visits: 0, Value: 0, Action: deterministic_doc_compression
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $2.93
+
+==================================================
+ITERATION 3
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_summarization: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 1.0 uses, avg change in cost: +0.99, avg change in accuracy: -37.0000
+- swap_with_code: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -203.0000
+- reduce_gleaning: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- reduce_chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- arbitrary_rewrite: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- cascade_filtering: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- isolating_subtasks: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 1.0 uses, avg change in cost: +0.01, avg change in accuracy: -213.0000
+- clarify_instructions: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: +5.0000
+- take_head_tail: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+
+Tree Structure:
+Node ID: 0, Visits: 7, Value: -193.0, Action: ROOT
+  Node ID: 1, Visits: 3, Value: 50.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -164.0, Action: doc_chunking
+    Node ID: 9, Visits: 1, Value: 214.0, Action: deterministic_doc_compression
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $2.98
+
+==================================================
+ITERATION 4
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_summarization: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 1.0 uses, avg change in cost: +0.99, avg change in accuracy: -37.0000
+- swap_with_code: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -203.0000
+- reduce_gleaning: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- reduce_chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- arbitrary_rewrite: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- cascade_filtering: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- isolating_subtasks: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 1.0 uses, avg change in cost: +0.01, avg change in accuracy: -213.0000
+- clarify_instructions: 2.0 uses, avg change in cost: -0.01, avg change in accuracy: +8.0000
+- take_head_tail: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+
+Tree Structure:
+Node ID: 0, Visits: 10, Value: -193.0, Action: ROOT
+  Node ID: 1, Visits: 6, Value: 50.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 2, Value: 225.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+    Node ID: 1-1-cost, Visits: 0, Value: 0, Action: take_head_tail
+    Node ID: 1-2-cost, Visits: 0, Value: 0, Action: take_head_tail
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $3.21
+
+==================================================
+ITERATION 5
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_summarization: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 1.0 uses, avg change in cost: +0.99, avg change in accuracy: -37.0000
+- swap_with_code: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -203.0000
+- reduce_gleaning: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- reduce_chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- arbitrary_rewrite: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- cascade_filtering: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- isolating_subtasks: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 1.0 uses, avg change in cost: +0.01, avg change in accuracy: -213.0000
+- clarify_instructions: 2.0 uses, avg change in cost: -0.01, avg change in accuracy: +8.0000
+- take_head_tail: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: -211.0000
+
+Tree Structure:
+Node ID: 0, Visits: 10, Value: -176.0, Action: ROOT
+  Node ID: 1, Visits: 6, Value: 67.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 2, Value: 225.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+    Node ID: 11, Visits: 1, Value: 17.0, Action: take_head_tail
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $3.22
+
+==================================================
+ITERATION 6
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_summarization: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 1.0 uses, avg change in cost: +0.99, avg change in accuracy: -37.0000
+- swap_with_code: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -203.0000
+- reduce_gleaning: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- reduce_chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- arbitrary_rewrite: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- cascade_filtering: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- isolating_subtasks: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 1.0 uses, avg change in cost: +0.01, avg change in accuracy: -213.0000
+- clarify_instructions: 3.0 uses, avg change in cost: -0.01, avg change in accuracy: +4.6667
+- take_head_tail: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: -211.0000
+
+Tree Structure:
+Node ID: 0, Visits: 13, Value: 19.0, Action: ROOT
+  Node ID: 1, Visits: 9, Value: 262.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 5, Value: 420.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+      Node ID: 12, Visits: 0, Value: 0, Action: doc_summarization
+      Node ID: 14, Visits: 1, Value: 195, Action: clarify_instructions
+      Node ID: 13, Visits: 0, Value: 0, Action: isolating_subtasks
+    Node ID: 11, Visits: 1, Value: 17.0, Action: take_head_tail
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $3.54
+
+==================================================
+ITERATION 7
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_summarization: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 1.0 uses, avg change in cost: +0.99, avg change in accuracy: -37.0000
+- swap_with_code: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -203.0000
+- reduce_gleaning: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- reduce_chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- arbitrary_rewrite: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- cascade_filtering: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- isolating_subtasks: 1.0 uses, avg change in cost: +0.02, avg change in accuracy: -32.0000
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 1.0 uses, avg change in cost: +0.01, avg change in accuracy: -213.0000
+- clarify_instructions: 3.0 uses, avg change in cost: -0.01, avg change in accuracy: +4.6667
+- take_head_tail: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: -211.0000
+
+Tree Structure:
+Node ID: 0, Visits: 13, Value: -27.0, Action: ROOT
+  Node ID: 1, Visits: 9, Value: 216.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 5, Value: 374.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+      Node ID: 12, Visits: 0, Value: 0, Action: doc_summarization
+      Node ID: 14, Visits: 1, Value: 195, Action: clarify_instructions
+      Node ID: 13, Visits: 1, Value: -46, Action: isolating_subtasks
+    Node ID: 11, Visits: 1, Value: 17.0, Action: take_head_tail
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $3.58
+
+==================================================
+ITERATION 8
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_summarization: 1.0 uses, avg change in cost: +0.04, avg change in accuracy: -50.0000
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 1.0 uses, avg change in cost: +0.99, avg change in accuracy: -37.0000
+- swap_with_code: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -203.0000
+- reduce_gleaning: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- reduce_chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- arbitrary_rewrite: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- cascade_filtering: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- isolating_subtasks: 1.0 uses, avg change in cost: +0.02, avg change in accuracy: -32.0000
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 1.0 uses, avg change in cost: +0.01, avg change in accuracy: -213.0000
+- clarify_instructions: 3.0 uses, avg change in cost: -0.01, avg change in accuracy: +4.6667
+- take_head_tail: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: -211.0000
+
+Tree Structure:
+Node ID: 0, Visits: 13, Value: -91.0, Action: ROOT
+  Node ID: 1, Visits: 9, Value: 152.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 5, Value: 310.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+      Node ID: 12, Visits: 1, Value: -64, Action: doc_summarization
+      Node ID: 14, Visits: 1, Value: 195, Action: clarify_instructions
+      Node ID: 13, Visits: 1, Value: -46, Action: isolating_subtasks
+    Node ID: 11, Visits: 1, Value: 17.0, Action: take_head_tail
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $3.63
+
+==================================================
+ITERATION 9
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_summarization: 2.0 uses, avg change in cost: +0.02, avg change in accuracy: -25.0000
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 1.0 uses, avg change in cost: +0.99, avg change in accuracy: -37.0000
+- swap_with_code: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -203.0000
+- reduce_gleaning: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- reduce_chaining: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- arbitrary_rewrite: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -1.0000
+- cascade_filtering: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- isolating_subtasks: 1.0 uses, avg change in cost: +0.02, avg change in accuracy: -32.0000
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 1.0 uses, avg change in cost: +0.01, avg change in accuracy: -213.0000
+- clarify_instructions: 3.0 uses, avg change in cost: -0.01, avg change in accuracy: +4.6667
+- take_head_tail: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: -211.0000
+
+Tree Structure:
+Node ID: 0, Visits: 16, Value: -89.0, Action: ROOT
+  Node ID: 1, Visits: 12, Value: 154.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 5, Value: 310.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+      Node ID: 12, Visits: 1, Value: -64, Action: doc_summarization
+      Node ID: 14, Visits: 1, Value: 195, Action: clarify_instructions
+      Node ID: 13, Visits: 1, Value: -46, Action: isolating_subtasks
+    Node ID: 11, Visits: 1, Value: 17.0, Action: take_head_tail
+    Node ID: 15, Visits: 0, Value: 0, Action: doc_summarization
+    Node ID: 16, Visits: 1, Value: 2, Action: arbitrary_rewrite
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $3.85
+
+==================================================
+ITERATION 10
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_summarization: 2.0 uses, avg change in cost: +0.03, avg change in accuracy: -40.5000
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 1.0 uses, avg change in cost: +0.99, avg change in accuracy: -37.0000
+- swap_with_code: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -203.0000
+- reduce_gleaning: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- reduce_chaining: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- arbitrary_rewrite: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -1.0000
+- cascade_filtering: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- isolating_subtasks: 1.0 uses, avg change in cost: +0.02, avg change in accuracy: -32.0000
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 1.0 uses, avg change in cost: +0.01, avg change in accuracy: -213.0000
+- clarify_instructions: 3.0 uses, avg change in cost: -0.01, avg change in accuracy: +4.6667
+- take_head_tail: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: -211.0000
+
+Tree Structure:
+Node ID: 0, Visits: 16, Value: -120.0, Action: ROOT
+  Node ID: 1, Visits: 12, Value: 123.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 5, Value: 310.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+      Node ID: 12, Visits: 1, Value: -64, Action: doc_summarization
+      Node ID: 14, Visits: 1, Value: 195, Action: clarify_instructions
+      Node ID: 13, Visits: 1, Value: -46, Action: isolating_subtasks
+    Node ID: 11, Visits: 1, Value: 17.0, Action: take_head_tail
+    Node ID: 15, Visits: 1, Value: -31, Action: doc_summarization
+    Node ID: 16, Visits: 1, Value: 2, Action: arbitrary_rewrite
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $3.89
+
+==================================================
+ITERATION 11
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_summarization: 2.0 uses, avg change in cost: +0.03, avg change in accuracy: -40.5000
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 1.0 uses, avg change in cost: +0.99, avg change in accuracy: -37.0000
+- swap_with_code: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -203.0000
+- reduce_gleaning: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- reduce_chaining: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- arbitrary_rewrite: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -1.0000
+- cascade_filtering: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- isolating_subtasks: 1.0 uses, avg change in cost: +0.02, avg change in accuracy: -32.0000
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 1.0 uses, avg change in cost: +0.01, avg change in accuracy: -213.0000
+- clarify_instructions: 5.0 uses, avg change in cost: -0.00, avg change in accuracy: +3.2000
+- take_head_tail: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: -211.0000
+
+Tree Structure:
+Node ID: 0, Visits: 19, Value: -118.0, Action: ROOT
+  Node ID: 1, Visits: 15, Value: 125.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 8, Value: 312.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+      Node ID: 12, Visits: 1, Value: -64, Action: doc_summarization
+      Node ID: 14, Visits: 4, Value: 197, Action: clarify_instructions
+        Node ID: 14-1-acc, Visits: 0, Value: 0, Action: clarify_instructions
+        Node ID: 14-2-acc, Visits: 0, Value: 0, Action: clarify_instructions
+        Node ID: 17, Visits: 1, Value: 2, Action: clarify_instructions
+      Node ID: 13, Visits: 1, Value: -46, Action: isolating_subtasks
+    Node ID: 11, Visits: 1, Value: 17.0, Action: take_head_tail
+    Node ID: 15, Visits: 1, Value: -31, Action: doc_summarization
+    Node ID: 16, Visits: 1, Value: 2, Action: arbitrary_rewrite
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $4.35
+
+==================================================
+ITERATION 12
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- chaining: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_summarization: 2.0 uses, avg change in cost: +0.03, avg change in accuracy: -40.5000
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 1.0 uses, avg change in cost: +0.99, avg change in accuracy: -37.0000
+- swap_with_code: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -203.0000
+- reduce_gleaning: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- reduce_chaining: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- arbitrary_rewrite: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -1.0000
+- cascade_filtering: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- isolating_subtasks: 1.0 uses, avg change in cost: +0.02, avg change in accuracy: -32.0000
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 1.0 uses, avg change in cost: +0.01, avg change in accuracy: -213.0000
+- clarify_instructions: 5.0 uses, avg change in cost: -0.01, avg change in accuracy: +2.2000
+- take_head_tail: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: -211.0000
+
+Tree Structure:
+Node ID: 0, Visits: 19, Value: 72.0, Action: ROOT
+  Node ID: 1, Visits: 15, Value: 315.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 8, Value: 502.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+      Node ID: 12, Visits: 1, Value: -64, Action: doc_summarization
+      Node ID: 14, Visits: 4, Value: 387, Action: clarify_instructions
+        Node ID: 18, Visits: 1, Value: 190, Action: clarify_instructions
+        Node ID: 17, Visits: 1, Value: 2, Action: clarify_instructions
+      Node ID: 13, Visits: 1, Value: -46, Action: isolating_subtasks
+    Node ID: 11, Visits: 1, Value: 17.0, Action: take_head_tail
+    Node ID: 15, Visits: 1, Value: -31, Action: doc_summarization
+    Node ID: 16, Visits: 1, Value: 2, Action: arbitrary_rewrite
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $4.36
+
+==================================================
+ITERATION 13
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- chaining: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_summarization: 2.0 uses, avg change in cost: +0.03, avg change in accuracy: -40.5000
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 2.0 uses, avg change in cost: +0.49, avg change in accuracy: -18.0000
+- swap_with_code: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -203.0000
+- reduce_gleaning: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- reduce_chaining: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- arbitrary_rewrite: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -1.0000
+- cascade_filtering: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- isolating_subtasks: 1.0 uses, avg change in cost: +0.02, avg change in accuracy: -32.0000
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 1.0 uses, avg change in cost: +0.01, avg change in accuracy: -213.0000
+- clarify_instructions: 5.0 uses, avg change in cost: -0.01, avg change in accuracy: +2.2000
+- take_head_tail: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: -211.0000
+
+Tree Structure:
+Node ID: 0, Visits: 22, Value: 261.0, Action: ROOT
+  Node ID: 1, Visits: 18, Value: 504.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 11, Value: 691.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+      Node ID: 12, Visits: 1, Value: -64, Action: doc_summarization
+      Node ID: 14, Visits: 7, Value: 576, Action: clarify_instructions
+        Node ID: 18, Visits: 1, Value: 184, Action: clarify_instructions
+        Node ID: 17, Visits: 1, Value: 2, Action: clarify_instructions
+        Node ID: 19, Visits: 1, Value: 196, Action: gleaning
+      Node ID: 13, Visits: 1, Value: -46, Action: isolating_subtasks
+    Node ID: 11, Visits: 1, Value: 17.0, Action: take_head_tail
+    Node ID: 15, Visits: 1, Value: -31, Action: doc_summarization
+    Node ID: 16, Visits: 1, Value: 2, Action: arbitrary_rewrite
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $4.60
+
+==================================================
+ITERATION 14
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- chaining: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_summarization: 2.0 uses, avg change in cost: +0.03, avg change in accuracy: -40.5000
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 2.0 uses, avg change in cost: +0.49, avg change in accuracy: -18.0000
+- swap_with_code: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 3.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 2.0 uses, avg change in cost: -0.00, avg change in accuracy: -101.5000
+- reduce_gleaning: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- reduce_chaining: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- arbitrary_rewrite: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -1.0000
+- cascade_filtering: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- isolating_subtasks: 1.0 uses, avg change in cost: +0.02, avg change in accuracy: -32.0000
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: -106.5000
+- clarify_instructions: 5.0 uses, avg change in cost: -0.01, avg change in accuracy: +2.2000
+- take_head_tail: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: -211.0000
+
+Tree Structure:
+Node ID: 0, Visits: 31, Value: 261.0, Action: ROOT
+  Node ID: 1, Visits: 27, Value: 504.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 18, Value: 691.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+      Node ID: 12, Visits: 1, Value: -64, Action: doc_summarization
+      Node ID: 14, Visits: 12, Value: 576, Action: clarify_instructions
+        Node ID: 18, Visits: 2, Value: 184, Action: clarify_instructions
+        Node ID: 17, Visits: 1, Value: 2, Action: clarify_instructions
+        Node ID: 19, Visits: 2, Value: 196, Action: gleaning
+      Node ID: 13, Visits: 1, Value: -46, Action: isolating_subtasks
+      Node ID: 20, Visits: 1, Value: -inf, Action: operator_fusion
+    Node ID: 11, Visits: 1, Value: 17.0, Action: take_head_tail
+    Node ID: 15, Visits: 1, Value: -31, Action: doc_summarization
+    Node ID: 16, Visits: 1, Value: 2, Action: arbitrary_rewrite
+    Node ID: 1-1-cost, Visits: 0, Value: 0, Action: doc_chunking_topk
+    Node ID: 1-2-cost, Visits: 0, Value: 0, Action: doc_chunking_topk
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $5.12
+
+==================================================
+ITERATION 15
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- chaining: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_summarization: 2.0 uses, avg change in cost: +0.03, avg change in accuracy: -40.5000
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 2.0 uses, avg change in cost: +0.49, avg change in accuracy: -18.0000
+- swap_with_code: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 3.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 2.0 uses, avg change in cost: -0.00, avg change in accuracy: -101.5000
+- reduce_gleaning: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- reduce_chaining: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- arbitrary_rewrite: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -1.0000
+- cascade_filtering: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- isolating_subtasks: 1.0 uses, avg change in cost: +0.02, avg change in accuracy: -32.0000
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: -204.0000
+- clarify_instructions: 5.0 uses, avg change in cost: -0.01, avg change in accuracy: +2.2000
+- take_head_tail: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: -211.0000
+
+Tree Structure:
+Node ID: 0, Visits: 31, Value: 66.0, Action: ROOT
+  Node ID: 1, Visits: 27, Value: 309.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 18, Value: 691.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+      Node ID: 12, Visits: 1, Value: -64, Action: doc_summarization
+      Node ID: 14, Visits: 12, Value: 576, Action: clarify_instructions
+        Node ID: 18, Visits: 2, Value: 184, Action: clarify_instructions
+        Node ID: 17, Visits: 1, Value: 2, Action: clarify_instructions
+        Node ID: 19, Visits: 2, Value: 196, Action: gleaning
+      Node ID: 13, Visits: 1, Value: -46, Action: isolating_subtasks
+      Node ID: 20, Visits: 1, Value: -inf, Action: operator_fusion
+    Node ID: 11, Visits: 1, Value: 17.0, Action: take_head_tail
+    Node ID: 15, Visits: 1, Value: -31, Action: doc_summarization
+    Node ID: 16, Visits: 1, Value: 2, Action: arbitrary_rewrite
+    Node ID: 21, Visits: 1, Value: -195, Action: doc_chunking_topk
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $5.14
+
+==================================================
+ITERATION 16
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- chaining: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_summarization: 2.0 uses, avg change in cost: +0.03, avg change in accuracy: -40.5000
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 3.0 uses, avg change in cost: +0.35, avg change in accuracy: -16.6667
+- swap_with_code: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 3.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 2.0 uses, avg change in cost: -0.00, avg change in accuracy: -101.5000
+- reduce_gleaning: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- reduce_chaining: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- arbitrary_rewrite: 1.0 uses, avg change in cost: -0.00, avg change in accuracy: -1.0000
+- cascade_filtering: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- isolating_subtasks: 1.0 uses, avg change in cost: +0.02, avg change in accuracy: -32.0000
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: -204.0000
+- clarify_instructions: 5.0 uses, avg change in cost: -0.01, avg change in accuracy: +2.2000
+- take_head_tail: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: -211.0000
+
+Tree Structure:
+Node ID: 0, Visits: 34, Value: 36.0, Action: ROOT
+  Node ID: 1, Visits: 30, Value: 279.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 21, Value: 661.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+      Node ID: 12, Visits: 1, Value: -64, Action: doc_summarization
+      Node ID: 14, Visits: 15, Value: 546, Action: clarify_instructions
+        Node ID: 18, Visits: 2, Value: 184, Action: clarify_instructions
+        Node ID: 17, Visits: 1, Value: 2, Action: clarify_instructions
+        Node ID: 19, Visits: 2, Value: 196, Action: gleaning
+        Node ID: 22, Visits: 1, Value: -30, Action: gleaning
+      Node ID: 13, Visits: 1, Value: -46, Action: isolating_subtasks
+      Node ID: 20, Visits: 1, Value: -inf, Action: operator_fusion
+    Node ID: 11, Visits: 1, Value: 17.0, Action: take_head_tail
+    Node ID: 15, Visits: 1, Value: -31, Action: doc_summarization
+    Node ID: 16, Visits: 1, Value: 2, Action: arbitrary_rewrite
+    Node ID: 21, Visits: 1, Value: -195, Action: doc_chunking_topk
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $5.42
+
+==================================================
+ITERATION 17
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- chaining: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_summarization: 2.0 uses, avg change in cost: +0.03, avg change in accuracy: -40.5000
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 3.0 uses, avg change in cost: +0.35, avg change in accuracy: -16.6667
+- swap_with_code: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 3.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 3.0 uses, avg change in cost: -0.00, avg change in accuracy: -67.6667
+- reduce_gleaning: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- reduce_chaining: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- arbitrary_rewrite: 2.0 uses, avg change in cost: -0.00, avg change in accuracy: -0.5000
+- cascade_filtering: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- isolating_subtasks: 1.0 uses, avg change in cost: +0.02, avg change in accuracy: -32.0000
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: -204.0000
+- clarify_instructions: 5.0 uses, avg change in cost: -0.01, avg change in accuracy: +2.2000
+- take_head_tail: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: -211.0000
+
+Tree Structure:
+Node ID: 0, Visits: 37, Value: 36.0, Action: ROOT
+  Node ID: 1, Visits: 33, Value: 279.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 24, Value: 661.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+      Node ID: 12, Visits: 1, Value: -64, Action: doc_summarization
+      Node ID: 14, Visits: 18, Value: 546, Action: clarify_instructions
+        Node ID: 18, Visits: 2, Value: 184, Action: clarify_instructions
+        Node ID: 17, Visits: 1, Value: 2, Action: clarify_instructions
+        Node ID: 19, Visits: 3, Value: 196, Action: gleaning
+        Node ID: 22, Visits: 1, Value: -30, Action: gleaning
+        Node ID: 14-1-cost, Visits: 0, Value: 0, Action: doc_chunking
+        Node ID: 14-2-cost, Visits: 0, Value: 0, Action: doc_chunking
+        Node ID: 23, Visits: 1, Value: -inf, Action: operator_fusion
+      Node ID: 13, Visits: 1, Value: -46, Action: isolating_subtasks
+      Node ID: 20, Visits: 1, Value: -inf, Action: operator_fusion
+    Node ID: 11, Visits: 1, Value: 17.0, Action: take_head_tail
+    Node ID: 15, Visits: 1, Value: -31, Action: doc_summarization
+    Node ID: 16, Visits: 1, Value: 2, Action: arbitrary_rewrite
+    Node ID: 21, Visits: 1, Value: -195, Action: doc_chunking_topk
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $5.79
+
+==================================================
+ITERATION 18
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- chaining: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_summarization: 2.0 uses, avg change in cost: +0.03, avg change in accuracy: -40.5000
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 3.0 uses, avg change in cost: +0.35, avg change in accuracy: -16.6667
+- swap_with_code: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 3.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 3.0 uses, avg change in cost: -0.00, avg change in accuracy: -127.0000
+- reduce_gleaning: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- reduce_chaining: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- arbitrary_rewrite: 2.0 uses, avg change in cost: -0.00, avg change in accuracy: -0.5000
+- cascade_filtering: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- isolating_subtasks: 1.0 uses, avg change in cost: +0.02, avg change in accuracy: -32.0000
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: -204.0000
+- clarify_instructions: 5.0 uses, avg change in cost: -0.01, avg change in accuracy: +2.2000
+- take_head_tail: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: -211.0000
+
+Tree Structure:
+Node ID: 0, Visits: 37, Value: -155.0, Action: ROOT
+  Node ID: 1, Visits: 33, Value: 88.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 24, Value: 470.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+      Node ID: 12, Visits: 1, Value: -64, Action: doc_summarization
+      Node ID: 14, Visits: 18, Value: 355, Action: clarify_instructions
+        Node ID: 18, Visits: 2, Value: 184, Action: clarify_instructions
+        Node ID: 17, Visits: 1, Value: 2, Action: clarify_instructions
+        Node ID: 19, Visits: 3, Value: 196, Action: gleaning
+        Node ID: 22, Visits: 1, Value: -30, Action: gleaning
+        Node ID: 24, Visits: 1, Value: -191, Action: doc_chunking
+        Node ID: 23, Visits: 1, Value: -inf, Action: operator_fusion
+      Node ID: 13, Visits: 1, Value: -46, Action: isolating_subtasks
+      Node ID: 20, Visits: 1, Value: -inf, Action: operator_fusion
+    Node ID: 11, Visits: 1, Value: 17.0, Action: take_head_tail
+    Node ID: 15, Visits: 1, Value: -31, Action: doc_summarization
+    Node ID: 16, Visits: 1, Value: 2, Action: arbitrary_rewrite
+    Node ID: 21, Visits: 1, Value: -195, Action: doc_chunking_topk
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $5.82
+
+==================================================
+ITERATION 19
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- chaining: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_summarization: 2.0 uses, avg change in cost: +0.03, avg change in accuracy: -40.5000
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 3.0 uses, avg change in cost: +0.35, avg change in accuracy: -16.6667
+- swap_with_code: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 3.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 3.0 uses, avg change in cost: -0.00, avg change in accuracy: -127.0000
+- reduce_gleaning: 3.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- reduce_chaining: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- arbitrary_rewrite: 2.0 uses, avg change in cost: -0.00, avg change in accuracy: -0.5000
+- cascade_filtering: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- isolating_subtasks: 1.0 uses, avg change in cost: +0.02, avg change in accuracy: -32.0000
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: -204.0000
+- clarify_instructions: 6.0 uses, avg change in cost: -0.00, avg change in accuracy: +2.0000
+- take_head_tail: 1.0 uses, avg change in cost: -0.02, avg change in accuracy: -211.0000
+
+Tree Structure:
+Node ID: 0, Visits: 39, Value: -154.0, Action: ROOT
+  Node ID: 1, Visits: 35, Value: 89.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 25, Value: 470.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+      Node ID: 12, Visits: 1, Value: -64, Action: doc_summarization
+      Node ID: 14, Visits: 19, Value: 355, Action: clarify_instructions
+        Node ID: 18, Visits: 3, Value: 184, Action: clarify_instructions
+        Node ID: 17, Visits: 1, Value: 2, Action: clarify_instructions
+        Node ID: 19, Visits: 3, Value: 196, Action: gleaning
+        Node ID: 22, Visits: 1, Value: -30, Action: gleaning
+        Node ID: 24, Visits: 1, Value: -191, Action: doc_chunking
+        Node ID: 23, Visits: 1, Value: -inf, Action: operator_fusion
+      Node ID: 13, Visits: 1, Value: -46, Action: isolating_subtasks
+      Node ID: 20, Visits: 1, Value: -inf, Action: operator_fusion
+    Node ID: 11, Visits: 2, Value: 18.0, Action: take_head_tail
+      Node ID: 25, Visits: 1, Value: 1, Action: clarify_instructions
+    Node ID: 15, Visits: 1, Value: -31, Action: doc_summarization
+    Node ID: 16, Visits: 1, Value: 2, Action: arbitrary_rewrite
+    Node ID: 21, Visits: 1, Value: -195, Action: doc_chunking_topk
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $6.04
+
+==================================================
+ITERATION 20
+==================================================
+Action Performance Statistics:
+- hierarchical_reduce: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- deterministic_doc_compression: 1.0 uses, avg change in cost: -0.01, avg change in accuracy: -14.0000
+- chunk_header_summary: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- chaining: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_summarization: 2.0 uses, avg change in cost: +0.03, avg change in accuracy: -40.5000
+- change to gpt-4o-mini: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- change model cost: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- gleaning: 3.0 uses, avg change in cost: +0.35, avg change in accuracy: -16.6667
+- swap_with_code: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- change to gpt-4o: 0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- map_reduce_fusion: 3.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- doc_chunking: 3.0 uses, avg change in cost: -0.00, avg change in accuracy: -127.0000
+- reduce_gleaning: 3.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- reduce_chaining: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- arbitrary_rewrite: 2.0 uses, avg change in cost: -0.00, avg change in accuracy: -0.5000
+- cascade_filtering: 1.0 uses, avg change in cost: +0.00, avg change in accuracy: +0.0000
+- isolating_subtasks: 1.0 uses, avg change in cost: +0.02, avg change in accuracy: -32.0000
+- operator_fusion: 0.0 uses, avg change in cost: Unknown (never tried), avg change in accuracy: Unknown (never tried)
+- doc_chunking_topk: 2.0 uses, avg change in cost: +0.00, avg change in accuracy: -204.0000
+- clarify_instructions: 6.0 uses, avg change in cost: -0.00, avg change in accuracy: +2.0000
+- take_head_tail: 2.0 uses, avg change in cost: -0.01, avg change in accuracy: -196.5000
+
+Tree Structure:
+Node ID: 0, Visits: 40, Value: -153.0, Action: ROOT
+  Node ID: 1, Visits: 36, Value: 90.0, Action: change to gpt-4o-mini
+    Node ID: 8, Visits: 1, Value: -175.0, Action: doc_chunking
+    Node ID: 9, Visits: 26, Value: 485.0, Action: deterministic_doc_compression
+      Node ID: 10, Visits: 1, Value: 11, Action: clarify_instructions
+      Node ID: 12, Visits: 1, Value: -64, Action: doc_summarization
+      Node ID: 14, Visits: 19, Value: 355, Action: clarify_instructions
+        Node ID: 18, Visits: 3, Value: 184, Action: clarify_instructions
+        Node ID: 17, Visits: 1, Value: 2, Action: clarify_instructions
+        Node ID: 19, Visits: 3, Value: 196, Action: gleaning
+        Node ID: 22, Visits: 1, Value: -30, Action: gleaning
+        Node ID: 24, Visits: 1, Value: -191, Action: doc_chunking
+        Node ID: 23, Visits: 1, Value: -inf, Action: operator_fusion
+      Node ID: 13, Visits: 1, Value: -46, Action: isolating_subtasks
+      Node ID: 20, Visits: 1, Value: -inf, Action: operator_fusion
+      Node ID: 26, Visits: 1, Value: 15, Action: take_head_tail
+    Node ID: 11, Visits: 2, Value: 4.0, Action: take_head_tail
+      Node ID: 25, Visits: 1, Value: -13, Action: clarify_instructions
+    Node ID: 15, Visits: 1, Value: -31, Action: doc_summarization
+    Node ID: 16, Visits: 1, Value: 2, Action: arbitrary_rewrite
+    Node ID: 21, Visits: 1, Value: -195, Action: doc_chunking_topk
+  Node ID: 2, Visits: 4, Value: -243, Action: change to gpt-4o
+    Node ID: 5, Visits: 1, Value: -42, Action: gleaning
+    Node ID: 6, Visits: 1, Value: -218, Action: doc_chunking_topk
+    Node ID: 7, Visits: 1, Value: 22, Action: clarify_instructions
+
+Total search cost: $6.16

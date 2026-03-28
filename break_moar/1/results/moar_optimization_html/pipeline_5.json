@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "raw_html": "<main><p>Today's top story: <strong>New Launch</strong></p></main>",
+    "clean_text": "Today's top story: New Launch"
+  },
+  {
+    "id": 2,
+    "raw_html": "<div class='price'>Price: <span class='usd'>$68.46</span></div>",
+    "clean_text": "Price: $68.46"
+  },
+  {
+    "id": 3,
+    "raw_html": "<ul><li>Dates</li><li>Elderberries</li><li>Dates</li></ul>",
+    "clean_text": "Dates\nElderberries\nDates"
+  },
+  {
+    "id": 4,
+    "raw_html": "<blockquote>Just do it. <cite>- Jobs</cite></blockquote>",
+    "clean_text": "Just do it. - Jobs"
+  },
+  {
+    "id": 5,
+    "raw_html": "<header><h1>HealthPlus Blog</h1><p>Exploring space exploration</p></header>",
+    "clean_text": "HealthPlus Blog Exploring space exploration"
+  },
+  {
+    "id": 6,
+    "raw_html": "<figure><img src='avatar.jpg' alt='Scenic View'><figcaption>Fig 1. Weekly Digest</figcaption></figure>",
+    "clean_text": "Fig 1. Weekly Digest"
+  },
+  {
+    "id": 7,
+    "raw_html": "<a href='https://demo.com' target='_blank'>Click here</a> to learn more about space exploration.",
+    "clean_text": "Click here to learn more about space exploration."
+  },
+  {
+    "id": 8,
+    "raw_html": "<a href='https://example.com' target='_blank'>Click here</a> to learn more about healthy eating.",
+    "clean_text": "Click here to learn more about healthy eating."
+  },
+  {
+    "id": 9,
+    "raw_html": "<footer>Contact us at <a href='mailto:admin@test.com'>admin@test.com</a></footer>",
+    "clean_text": "Contact us at admin@test.com"
+  },
+  {
+    "id": 10,
+    "raw_html": "<footer>Contact us at <a href='mailto:admin@sample.com'>admin@sample.com</a></footer>",
+    "clean_text": "Contact us at admin@sample.com"
+  },
+  {
+    "id": 11,
+    "raw_html": "<header><h1>HealthPlus Blog</h1><p>Exploring budgeting</p></header>",
+    "clean_text": "HealthPlus Blog\nExploring budgeting"
+  },
+  {
+    "id": 12,
+    "raw_html": "<header><h1>DataCorp Blog</h1><p>Exploring space exploration</p></header>",
+    "clean_text": "DataCorp Blog\nExploring space exploration"
+  },
+  {
+    "id": 13,
+    "raw_html": "<figure><img src='avatar.jpg' alt='Promotional Banner'><figcaption>Fig 1. Market Analysis</figcaption></figure>",
+    "clean_text": "Fig 1. Market Analysis Promotional Banner"
+  },
+  {
+    "id": 14,
+    "raw_html": "<strong>Warning:</strong> System maintenance scheduled for <i>tonight</i>.",
+    "clean_text": "Warning: System maintenance scheduled for tonight."
+  },
+  {
+    "id": 15,
+    "raw_html": "<br><p>Just some plain text wrapped in <div>tags</div>. ID: 3a5f76a0</p>",
+    "clean_text": "Just some plain text wrapped in tags. ID: 3a5f76a0"
+  },
+  {
+    "id": 16,
+    "raw_html": "<section id='about'><p>We are a company specializing in climate change. Established in 2023.</p></section>",
+    "clean_text": "We are a company specializing in climate change. Established in 2023."
+  },
+  {
+    "id": 17,
+    "raw_html": "<header><h1>GameZone Blog</h1><p>Exploring robotics</p></header>",
+    "clean_text": "GameZone Blog Exploring robotics"
+  },
+  {
+    "id": 18,
+    "raw_html": "<figure><img src='splash.jpg' alt='Company Logo'><figcaption>Fig 1. Industry News</figcaption></figure>",
+    "clean_text": "Company Logo Fig 1. Industry News"
+  },
+  {
+    "id": 19,
+    "raw_html": "<header><h1>TechHub Blog</h1><p>Exploring healthy eating</p></header>",
+    "clean_text": "TechHub Blog\nExploring healthy eating"
+  },
+  {
+    "id": 20,
+    "raw_html": "<strong>Warning:</strong> System maintenance scheduled for <i>next week</i>.",
+    "clean_text": "Warning: System maintenance scheduled for next week."
+  },
+  {
+    "id": 21,
+    "raw_html": "<article><h2>Q3 Update</h2><p>Published on <time>2024-02-14</time> by <em>Diana</em></p></article>",
+    "clean_text": "Q3 Update\nPublished on 2024-02-14 by Diana"
+  },
+  {
+    "id": 22,
+    "raw_html": "<form action='/submit' method='post'><input type='text' name='user' value='Bob'><input type='submit' value='Submit'></form> Please fill the form.",
+    "clean_text": " Please fill the form."
+  },
+  {
+    "id": 23,
+    "raw_html": "<a href='https://demo.com' target='_blank'>Click here</a> to learn more about budgeting.",
+    "clean_text": "Click here to learn more about budgeting."
+  },
+  {
+    "id": 24,
+    "raw_html": "<article><h2>Weekly Digest</h2><p>Published on <time>2023-12-05</time> by <em>Diana</em></p></article>",
+    "clean_text": "Weekly Digest\nPublished on 2023-12-05 by Diana"
+  },
+  {
+    "id": 25,
+    "raw_html": "<script>console.log('User logged in: Bob');</script>Please ignore the script tag.",
+    "clean_text": "Please ignore the script tag."
+  },
+  {
+    "id": 26,
+    "raw_html": "<main><p>Today's top story: <strong>Market Analysis</strong></p></main>",
+    "clean_text": "Today's top story: Market Analysis"
+  },
+  {
+    "id": 27,
+    "raw_html": "<form action='/submit' method='post'><input type='text' name='user' value='Grace'><input type='submit' value='Submit'></form> Please fill the form.",
+    "clean_text": "Grace. Please fill the form."
+  },
+  {
+    "id": 28,
+    "raw_html": "<aside><h3>Related Links</h3><ul><li><a href='#'>More on AI</a></li></ul></aside>",
+    "clean_text": "Related Links More on AI"
+  },
+  {
+    "id": 29,
+    "raw_html": "<section id='about'><p>We are a company specializing in budgeting. Established in 2005.</p></section>",
+    "clean_text": "We are a company specializing in budgeting. Established in 2005."
+  },
+  {
+    "id": 30,
+    "raw_html": "<ul><li>Apples</li><li>Bananas</li><li>Bananas</li></ul>",
+    "clean_text": "Apples, Bananas, Bananas"
+  },
+  {
+    "id": 31,
+    "raw_html": "<header><h1>DataCorp Blog</h1><p>Exploring healthy eating</p></header>",
+    "clean_text": "DataCorp Blog Exploring healthy eating"
+  },
+  {
+    "id": 32,
+    "raw_html": "<blockquote>E=mc2 <cite>- Jobs</cite></blockquote>",
+    "clean_text": "E=mc2 - Jobs"
+  },
+  {
+    "id": 33,
+    "raw_html": "<a href='https://sample.com' target='_blank'>Click here</a> to learn more about space exploration.",
+    "clean_text": "Click here to learn more about space exploration."
+  },
+  {
+    "id": 34,
+    "raw_html": "<div class='price'>Price: <span class='usd'>$874.51</span></div>",
+    "clean_text": "Price: $874.51"
+  },
+  {
+    "id": 35,
+    "raw_html": "<br><p>Just some plain text wrapped in <div>tags</div>. ID: d2604a7e</p>",
+    "clean_text": "Just some plain text wrapped in tags. ID: d2604a7e"
+  },
+  {
+    "id": 36,
+    "raw_html": "<br><p>Just some plain text wrapped in <div>tags</div>. ID: 2e205c6f</p>",
+    "clean_text": "Just some plain text wrapped in tags. ID: 2e205c6f"
+  },
+  {
+    "id": 37,
+    "raw_html": "<form action='/submit' method='post'><input type='text' name='user' value='Alice'><input type='submit' value='Submit'></form> Please fill the form.",
+    "clean_text": "Please fill the form."
+  },
+  {
+    "id": 38,
+    "raw_html": "<br><p>Just some plain text wrapped in <div>tags</div>. ID: ea7206b6</p>",
+    "clean_text": "Just some plain text wrapped in tags. ID: ea7206b6"
+  },
+  {
+    "id": 39,
+    "raw_html": "<header><h1>InnoSoft Blog</h1><p>Exploring climate change</p></header>",
+    "clean_text": "InnoSoft Blog\nExploring climate change"
+  },
+  {
+    "id": 40,
+    "raw_html": "<span style='color: green;'>Error 400:</span> Bad gateway.",
+    "clean_text": "Error 400: Bad gateway."
+  },
+  {
+    "id": 41,
+    "raw_html": "<img src='logo.png' alt='Scenic View'> Welcome to the portal, Bob.",
+    "clean_text": "Welcome to the portal, Bob."
+  },
+  {
+    "id": 42,
+    "raw_html": "<img src='avatar.png' alt='Promotional Banner'> Welcome to the portal, Alice.",
+    "clean_text": "Welcome to the portal, Alice."
+  },
+  {
+    "id": 43,
+    "raw_html": "<table border='1'><tr><th>Name</th><th>Age</th><th>City</th></tr><tr><td>Eve</td><td>25</td><td>Paris</td></tr></table>",
+    "clean_text": "Name: Eve, Age: 25, City: Paris"
+  },
+  {
+    "id": 44,
+    "raw_html": "<table border='1'><tr><th>Name</th><th>Age</th><th>City</th></tr><tr><td>Bob</td><td>45</td><td>Berlin</td></tr></table>",
+    "clean_text": "Name Age City Bob 45 Berlin"
+  },
+  {
+    "id": 45,
+    "raw_html": "<article><h2>Tips & Tricks</h2><p>Published on <time>2023-11-01</time> by <em>Heidi</em></p></article>",
+    "clean_text": "Tips & Tricks\nPublished on 2023-11-01 by Heidi"
+  },
+  {
+    "id": 46,
+    "raw_html": "<script>console.log('User logged in: Alice');</script>Please ignore the script tag.",
+    "clean_text": "Please ignore the script tag."
+  },
+  {
+    "id": 47,
+    "raw_html": "<img src='background.png' alt='Scenic View'> Welcome to the portal, Bob.",
+    "clean_text": " Welcome to the portal, Bob."
+  },
+  {
+    "id": 48,
+    "raw_html": "<section id='about'><p>We are a company specializing in budgeting. Established in 2023.</p></section>",
+    "clean_text": "We are a company specializing in budgeting. Established in 2023."
+  },
+  {
+    "id": 49,
+    "raw_html": "<br><p>Just some plain text wrapped in <div>tags</div>. ID: e3326a92</p>",
+    "clean_text": "Just some plain text wrapped in tags. ID: e3326a92"
+  },
+  {
+    "id": 50,
+    "raw_html": "<footer>Contact us at <a href='mailto:admin@store.com'>admin@store.com</a></footer>",
+    "clean_text": "Contact us at admin@store.com"
+  }
+]

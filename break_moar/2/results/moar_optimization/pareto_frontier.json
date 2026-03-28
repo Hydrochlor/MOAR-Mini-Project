@@ -1,0 +1,50 @@
+[
+  {
+    "node_id": 11,
+    "yaml_path": "C:\\Users\\Hydrochloric\\Desktop\\mini-project\\MOAR_4\\results\\moar_optimization\\pipeline_11.yaml",
+    "cost": 0.005492849999999997,
+    "accuracy": 17
+  },
+  {
+    "node_id": 26,
+    "yaml_path": "C:\\Users\\Hydrochloric\\Desktop\\mini-project\\MOAR_4\\results\\moar_optimization\\pipeline_26.yaml",
+    "cost": 0.005913000000000003,
+    "accuracy": 32
+  },
+  {
+    "node_id": 19,
+    "yaml_path": "C:\\Users\\Hydrochloric\\Desktop\\mini-project\\MOAR_4\\results\\moar_optimization\\pipeline_19.yaml",
+    "cost": 0.01123935,
+    "accuracy": 213
+  },
+  {
+    "node_id": 17,
+    "yaml_path": "C:\\Users\\Hydrochloric\\Desktop\\mini-project\\MOAR_4\\results\\moar_optimization\\pipeline_17.yaml",
+    "cost": 0.013765949999999996,
+    "accuracy": 214
+  },
+  {
+    "node_id": 10,
+    "yaml_path": "C:\\Users\\Hydrochloric\\Desktop\\mini-project\\MOAR_4\\results\\moar_optimization\\pipeline_10.yaml",
+    "cost": 0.01429845,
+    "accuracy": 225
+  },
+  {
+    "node_id": 16,
+    "yaml_path": "C:\\Users\\Hydrochloric\\Desktop\\mini-project\\MOAR_4\\results\\moar_optimization\\pipeline_16.yaml",
+    "cost": 0.0209403,
+    "accuracy": 227
+  },
+  {
+    "node_id": 1,
+    "yaml_path": "C:\\Users\\Hydrochloric\\Desktop\\mini-project\\MOAR_4\\results\\moar_optimization\\pipeline_gpt-4o-mini.yaml",
+    "cost": 0.0230211,
+    "accuracy": 228
+  },
+  {
+    "node_id": 7,
+    "yaml_path": "C:\\Users\\Hydrochloric\\Desktop\\mini-project\\MOAR_4\\results\\moar_optimization\\pipeline_7.yaml",
+    "cost": 0.3601150000000001,
+    "accuracy": 250
+  }
+]

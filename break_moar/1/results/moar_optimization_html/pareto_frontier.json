@@ -1,0 +1,14 @@
+[
+  {
+    "node_id": 6,
+    "yaml_path": "C:\\Users\\Hydrochloric\\Desktop\\mini-project\\reproduce_moar_2\\results\\moar_optimization_html\\pipeline_6.yaml",
+    "cost": 0.0020176500000000006,
+    "accuracy": 48
+  },
+  {
+    "node_id": 4,
+    "yaml_path": "C:\\Users\\Hydrochloric\\Desktop\\mini-project\\reproduce_moar_2\\results\\moar_optimization_html\\pipeline_4.yaml",
+    "cost": 0.0045579,
+    "accuracy": 50
+  }
+]

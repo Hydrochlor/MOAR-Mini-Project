@@ -1,0 +1,58 @@
+datasets:
+  transcripts:
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\medical_transcripts.json
+    type: file
+default_model: gpt-4o-mini
+bypass_cache: true
+optimizer_config:
+  type: moar
+  dataset_path: medical_transcripts.json
+  save_dir: results/moar_optimization
+  available_models:
+  - gpt-4o-mini
+  - gpt-4o
+  - gpt-5-mini
+  - gpt-5-nano
+  evaluation_file: evaluate_medications.py
+  metric_key: medication_extraction_score
+  max_iterations: 20
+  model: gpt-4o
+system_prompt:
+  dataset_description: a collection of transcripts of doctor visits
+  persona: a medical practitioner analyzing patient symptoms and reactions to medications
+operations:
+- name: extract_medications_head_tail
+  type: code_map
+  code: "def transform(input_doc):\n    src_content = input_doc.get('src', '')\n \
+    \   words = src_content.split()\n\n    if len(words) <= 150:\n        # Document\
+    \ is short enough, keep as is\n        truncated = src_content\n    else:\n  \
+    \      head = ' '.join(words[:120])\n        if 30 > 0:\n            tail = '\
+    \ '.join(words[-30:])\n            truncated = head + ' ... ' + tail\n       \
+    \ else:\n            truncated = head\n\n    return {'src': truncated}"
+- name: extract_medications
+  type: map
+  output:
+    schema:
+      medication: list[str]
+  prompt: 'Analyze the following transcript of a conversation between a doctor and
+    a patient:
+
+    {{ input.src }}
+
+    Carefully extract and list all explicitly mentioned medications, such as "Tylenol"
+    or "Imitrex," including brand and generic names, used currently or in past treatments.
+
+    Avoid extracting terms like "medication" unless a specific name follows it.
+
+    If the transcript does not mention any specific medications, return an empty list.
+    Ensure that dosage information and context are ignored in this extraction process.'
+pipeline:
+  steps:
+  - name: medication_extraction
+    input: transcripts
+    operations:
+    - extract_medications_head_tail
+    - extract_medications
+  output:
+    type: file
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\results\moar_optimization\pipeline_11-1-acc.json

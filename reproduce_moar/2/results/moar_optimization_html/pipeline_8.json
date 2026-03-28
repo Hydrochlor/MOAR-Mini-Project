@@ -1,0 +1,502 @@
+[
+  {
+    "clean_text": "Elderberries\nDates",
+    "split_strip_html_id": "701f5ab4-c131-4a8b-b6a0-b2f5161f00ff",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 3,
+    "raw_html": "<ul><li>Dates</li><li>Elderberries</li><li>Dates</li></ul>",
+    "raw_html_chunk": "<ul><li>Dates</li><li>Elderberries</li><li>Dates</li></ul>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<ul><li>Dates</li><li>Elderberries</li><li>Dates</li></ul>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Today's top story: New Launch",
+    "split_strip_html_id": "90e8a24d-59cf-4db1-b64d-7c9527a905f8",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 1,
+    "raw_html": "<main><p>Today's top story: <strong>New Launch</strong></p></main>",
+    "raw_html_chunk": "<main><p>Today's top story: <strong>New Launch</strong></p></main>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<main><p>Today's top story: <strong>New Launch</strong></p></main>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Price: $68.46",
+    "split_strip_html_id": "94c7233d-bef7-4bb2-b6a1-6be170d62d4a",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 2,
+    "raw_html": "<div class='price'>Price: <span class='usd'>$68.46</span></div>",
+    "raw_html_chunk": "<div class='price'>Price: <span class='usd'>$68.46</span></div>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<div class='price'>Price: <span class='usd'>$68.46</span></div>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "HealthPlus Blog\nExploring budgeting",
+    "split_strip_html_id": "b76f46d3-225f-40a6-bf01-9fc833bcd67b",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 11,
+    "raw_html": "<header><h1>HealthPlus Blog</h1><p>Exploring budgeting</p></header>",
+    "raw_html_chunk": "<header><h1>HealthPlus Blog</h1><p>Exploring budgeting</p></header>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<header><h1>HealthPlus Blog</h1><p>Exploring budgeting</p></header>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "DataCorp Blog\nExploring space exploration",
+    "split_strip_html_id": "3ffacf27-0c94-4b91-84ea-2feee6cfad75",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 12,
+    "raw_html": "<header><h1>DataCorp Blog</h1><p>Exploring space exploration</p></header>",
+    "raw_html_chunk": "<header><h1>DataCorp Blog</h1><p>Exploring space exploration</p></header>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<header><h1>DataCorp Blog</h1><p>Exploring space exploration</p></header>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Warning: System maintenance scheduled for tonight.",
+    "split_strip_html_id": "b4af8987-5963-4e95-8793-b6f6b999f8fe",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 14,
+    "raw_html": "<strong>Warning:</strong> System maintenance scheduled for <i>tonight</i>.",
+    "raw_html_chunk": "<strong>Warning:</strong> System maintenance scheduled for <i>tonight</i>.",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<strong>Warning:</strong> System maintenance scheduled for <i>tonight</i>.\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Contact us at admin@sample.com",
+    "split_strip_html_id": "6bfe77b9-fa4f-4183-b067-3f1ce842a5f6",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 10,
+    "raw_html": "<footer>Contact us at <a href='mailto:admin@sample.com'>admin@sample.com</a></footer>",
+    "raw_html_chunk": "<footer>Contact us at <a href='mailto:admin@sample.com'>admin@sample.com</a></footer>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<footer>Contact us at <a href='mailto:admin@sample.com'>admin@sample.com</a></footer>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Click here to learn more about space exploration.",
+    "split_strip_html_id": "84ed5dd9-9f12-432b-9e53-b83287fb6f19",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 7,
+    "raw_html": "<a href='https://demo.com' target='_blank'>Click here</a> to learn more about space exploration.",
+    "raw_html_chunk": "<a href='https://demo.com' target='_blank'>Click here</a> to learn more about space exploration.",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<a href='https://demo.com' target='_blank'>Click here</a> to learn more about space exploration.\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Weekly Digest",
+    "split_strip_html_id": "70033aea-1d3e-4ed8-977d-408aecff3ef9",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 6,
+    "raw_html": "<figure><img src='avatar.jpg' alt='Scenic View'><figcaption>Fig 1. Weekly Digest</figcaption></figure>",
+    "raw_html_chunk": "<figure><img src='avatar.jpg' alt='Scenic View'><figcaption>Fig 1. Weekly Digest</figcaption></figure>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<figure><img src='avatar.jpg' alt='Scenic View'><figcaption>Fig 1. Weekly Digest</figcaption></figure>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "More on AI",
+    "split_strip_html_id": "db020a22-508e-4f8f-8565-5be80c7e7e4b",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 28,
+    "raw_html": "<aside><h3>Related Links</h3><ul><li><a href='#'>More on AI</a></li></ul></aside>",
+    "raw_html_chunk": "<aside><h3>Related Links</h3><ul><li><a href='#'>More on AI</a></li></ul></aside>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<aside><h3>Related Links</h3><ul><li><a href='#'>More on AI</a></li></ul></aside>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Click here to learn more about budgeting.",
+    "split_strip_html_id": "f2c46380-9ac7-48d0-90f8-29babaca0801",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 23,
+    "raw_html": "<a href='https://demo.com' target='_blank'>Click here</a> to learn more about budgeting.",
+    "raw_html_chunk": "<a href='https://demo.com' target='_blank'>Click here</a> to learn more about budgeting.",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<a href='https://demo.com' target='_blank'>Click here</a> to learn more about budgeting.\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Price: $874.51",
+    "split_strip_html_id": "bf38ee65-80e9-4ed0-9d3b-f460b7c3b1f9",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 34,
+    "raw_html": "<div class='price'>Price: <span class='usd'>$874.51</span></div>",
+    "raw_html_chunk": "<div class='price'>Price: <span class='usd'>$874.51</span></div>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<div class='price'>Price: <span class='usd'>$874.51</span></div>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Today's top story: Market Analysis",
+    "split_strip_html_id": "5fcba350-6b4c-4fc7-96e4-7e19139d751a",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 26,
+    "raw_html": "<main><p>Today's top story: <strong>Market Analysis</strong></p></main>",
+    "raw_html_chunk": "<main><p>Today's top story: <strong>Market Analysis</strong></p></main>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<main><p>Today's top story: <strong>Market Analysis</strong></p></main>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "TechHub Blog\nExploring healthy eating",
+    "split_strip_html_id": "1e83356d-1b47-46c1-92fd-9699a6cec6a5",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 19,
+    "raw_html": "<header><h1>TechHub Blog</h1><p>Exploring healthy eating</p></header>",
+    "raw_html_chunk": "<header><h1>TechHub Blog</h1><p>Exploring healthy eating</p></header>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<header><h1>TechHub Blog</h1><p>Exploring healthy eating</p></header>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Exploring healthy eating",
+    "split_strip_html_id": "a2863020-4156-4f9f-93be-3aae41fb7e27",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 31,
+    "raw_html": "<header><h1>DataCorp Blog</h1><p>Exploring healthy eating</p></header>",
+    "raw_html_chunk": "<header><h1>DataCorp Blog</h1><p>Exploring healthy eating</p></header>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<header><h1>DataCorp Blog</h1><p>Exploring healthy eating</p></header>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Meaningful plain text extracted from the combined document chunks.",
+    "split_strip_html_id": "db51d0ae-13c9-4f73-a70a-b98510b6bc84",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 22,
+    "raw_html": "<form action='/submit' method='post'><input type='text' name='user' value='Bob'><input type='submit' value='Submit'></form> Please fill the form.",
+    "raw_html_chunk": "<form action='/submit' method='post'><input type='text' name='user' value='Bob'><input type='submit' value='Submit'></form> Please fill the form.",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<form action='/submit' method='post'><input type='text' name='user' value='Bob'><input type='submit' value='Submit'></form> Please fill the form.\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Click here to learn more about healthy eating.",
+    "split_strip_html_id": "1e181c39-4514-47e1-b3e3-0b92c833a401",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 8,
+    "raw_html": "<a href='https://example.com' target='_blank'>Click here</a> to learn more about healthy eating.",
+    "raw_html_chunk": "<a href='https://example.com' target='_blank'>Click here</a> to learn more about healthy eating.",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<a href='https://example.com' target='_blank'>Click here</a> to learn more about healthy eating.\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "We are a company specializing in climate change. Established in 2023.",
+    "split_strip_html_id": "a1e92ff2-c214-4113-b519-06317b5e3b8c",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 16,
+    "raw_html": "<section id='about'><p>We are a company specializing in climate change. Established in 2023.</p></section>",
+    "raw_html_chunk": "<section id='about'><p>We are a company specializing in climate change. Established in 2023.</p></section>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<section id='about'><p>We are a company specializing in climate change. Established in 2023.</p></section>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Eve 25 Paris",
+    "split_strip_html_id": "9e0459a5-bb64-48aa-9f7d-84b7f7d89250",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 43,
+    "raw_html": "<table border='1'><tr><th>Name</th><th>Age</th><th>City</th></tr><tr><td>Eve</td><td>25</td><td>Paris</td></tr></table>",
+    "raw_html_chunk": "<table border='1'><tr><th>Name</th><th>Age</th><th>City</th></tr><tr><td>Eve</td><td>25</td><td>Paris</td></tr></table>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<table border='1'><tr><th>Name</th><th>Age</th><th>City</th></tr><tr><td>Eve</td><td>25</td><td>Paris</td></tr></table>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Q3 Update\nPublished on 2024-02-14 by Diana",
+    "split_strip_html_id": "2bf99a3b-5181-4cae-875b-10aac33405f9",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 21,
+    "raw_html": "<article><h2>Q3 Update</h2><p>Published on <time>2024-02-14</time> by <em>Diana</em></p></article>",
+    "raw_html_chunk": "<article><h2>Q3 Update</h2><p>Published on <time>2024-02-14</time> by <em>Diana</em></p></article>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<article><h2>Q3 Update</h2><p>Published on <time>2024-02-14</time> by <em>Diana</em></p></article>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Market Analysis",
+    "split_strip_html_id": "37f9cfc6-c2fa-432d-96fb-fec7be7f7df9",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 13,
+    "raw_html": "<figure><img src='avatar.jpg' alt='Promotional Banner'><figcaption>Fig 1. Market Analysis</figcaption></figure>",
+    "raw_html_chunk": "<figure><img src='avatar.jpg' alt='Promotional Banner'><figcaption>Fig 1. Market Analysis</figcaption></figure>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<figure><img src='avatar.jpg' alt='Promotional Banner'><figcaption>Fig 1. Market Analysis</figcaption></figure>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Contact us at admin@store.com",
+    "split_strip_html_id": "f82e6da3-8d40-43d3-862f-8e3433e5d57f",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 50,
+    "raw_html": "<footer>Contact us at <a href='mailto:admin@store.com'>admin@store.com</a></footer>",
+    "raw_html_chunk": "<footer>Contact us at <a href='mailto:admin@store.com'>admin@store.com</a></footer>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<footer>Contact us at <a href='mailto:admin@store.com'>admin@store.com</a></footer>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Meaningful plain text extracted from the combined document chunks.",
+    "split_strip_html_id": "7c45201e-5390-415d-885a-122ca29146bb",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 27,
+    "raw_html": "<form action='/submit' method='post'><input type='text' name='user' value='Grace'><input type='submit' value='Submit'></form> Please fill the form.",
+    "raw_html_chunk": "<form action='/submit' method='post'><input type='text' name='user' value='Grace'><input type='submit' value='Submit'></form> Please fill the form.",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<form action='/submit' method='post'><input type='text' name='user' value='Grace'><input type='submit' value='Submit'></form> Please fill the form.\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Apples\nBananas\nBananas",
+    "split_strip_html_id": "899dd443-f5d1-4791-bb03-b3cb37e1a4fc",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 30,
+    "raw_html": "<ul><li>Apples</li><li>Bananas</li><li>Bananas</li></ul>",
+    "raw_html_chunk": "<ul><li>Apples</li><li>Bananas</li><li>Bananas</li></ul>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<ul><li>Apples</li><li>Bananas</li><li>Bananas</li></ul>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Welcome to the portal, Alice.",
+    "split_strip_html_id": "e472a484-5b84-428b-84c2-d0b0a971c94d",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 42,
+    "raw_html": "<img src='avatar.png' alt='Promotional Banner'> Welcome to the portal, Alice.",
+    "raw_html_chunk": "<img src='avatar.png' alt='Promotional Banner'> Welcome to the portal, Alice.",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<img src='avatar.png' alt='Promotional Banner'> Welcome to the portal, Alice.\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Welcome to the portal, Bob.",
+    "split_strip_html_id": "fdaa566b-01c6-4809-a245-a02f349290f5",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 47,
+    "raw_html": "<img src='background.png' alt='Scenic View'> Welcome to the portal, Bob.",
+    "raw_html_chunk": "<img src='background.png' alt='Scenic View'> Welcome to the portal, Bob.",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<img src='background.png' alt='Scenic View'> Welcome to the portal, Bob.\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "GameZone Blog\nExploring robotics",
+    "split_strip_html_id": "3d9e9c59-3923-4c05-b5cd-1d0bf581bc41",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 17,
+    "raw_html": "<header><h1>GameZone Blog</h1><p>Exploring robotics</p></header>",
+    "raw_html_chunk": "<header><h1>GameZone Blog</h1><p>Exploring robotics</p></header>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<header><h1>GameZone Blog</h1><p>Exploring robotics</p></header>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Bob 45 Berlin",
+    "split_strip_html_id": "8366fb41-c775-46f3-82dc-c04814512c77",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 44,
+    "raw_html": "<table border='1'><tr><th>Name</th><th>Age</th><th>City</th></tr><tr><td>Bob</td><td>45</td><td>Berlin</td></tr></table>",
+    "raw_html_chunk": "<table border='1'><tr><th>Name</th><th>Age</th><th>City</th></tr><tr><td>Bob</td><td>45</td><td>Berlin</td></tr></table>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<table border='1'><tr><th>Name</th><th>Age</th><th>City</th></tr><tr><td>Bob</td><td>45</td><td>Berlin</td></tr></table>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "InnoSoft Blog\nExploring climate change",
+    "split_strip_html_id": "674b4fd2-43dd-4a7f-9bc4-085177f87fdb",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 39,
+    "raw_html": "<header><h1>InnoSoft Blog</h1><p>Exploring climate change</p></header>",
+    "raw_html_chunk": "<header><h1>InnoSoft Blog</h1><p>Exploring climate change</p></header>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<header><h1>InnoSoft Blog</h1><p>Exploring climate change</p></header>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Click here to learn more about space exploration.",
+    "split_strip_html_id": "fcfc9cab-bc49-4f5f-bb52-10538325a886",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 33,
+    "raw_html": "<a href='https://sample.com' target='_blank'>Click here</a> to learn more about space exploration.",
+    "raw_html_chunk": "<a href='https://sample.com' target='_blank'>Click here</a> to learn more about space exploration.",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<a href='https://sample.com' target='_blank'>Click here</a> to learn more about space exploration.\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "We are a company specializing in budgeting. Established in 2023.",
+    "split_strip_html_id": "8a6ee435-1b6c-41e8-9bb0-5591cfb3db0f",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 48,
+    "raw_html": "<section id='about'><p>We are a company specializing in budgeting. Established in 2023.</p></section>",
+    "raw_html_chunk": "<section id='about'><p>We are a company specializing in budgeting. Established in 2023.</p></section>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<section id='about'><p>We are a company specializing in budgeting. Established in 2023.</p></section>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Meaningful plain text extracted from the combined document chunks.",
+    "split_strip_html_id": "cf7c8bb1-219b-42ee-bd93-b42cd95abcd3",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 37,
+    "raw_html": "<form action='/submit' method='post'><input type='text' name='user' value='Alice'><input type='submit' value='Submit'></form> Please fill the form.",
+    "raw_html_chunk": "<form action='/submit' method='post'><input type='text' name='user' value='Alice'><input type='submit' value='Submit'></form> Please fill the form.",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<form action='/submit' method='post'><input type='text' name='user' value='Alice'><input type='submit' value='Submit'></form> Please fill the form.\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Weekly Digest\nPublished on 2023-12-05 by Diana",
+    "split_strip_html_id": "b9737dfe-4636-4ba5-88a7-169805314cb3",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 24,
+    "raw_html": "<article><h2>Weekly Digest</h2><p>Published on <time>2023-12-05</time> by <em>Diana</em></p></article>",
+    "raw_html_chunk": "<article><h2>Weekly Digest</h2><p>Published on <time>2023-12-05</time> by <em>Diana</em></p></article>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<article><h2>Weekly Digest</h2><p>Published on <time>2023-12-05</time> by <em>Diana</em></p></article>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Welcome to the portal, Bob.",
+    "split_strip_html_id": "2bf7b645-e458-42d1-b71b-2573ad53192c",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 41,
+    "raw_html": "<img src='logo.png' alt='Scenic View'> Welcome to the portal, Bob.",
+    "raw_html_chunk": "<img src='logo.png' alt='Scenic View'> Welcome to the portal, Bob.",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<img src='logo.png' alt='Scenic View'> Welcome to the portal, Bob.\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "HealthPlus Blog\nExploring space exploration",
+    "split_strip_html_id": "4100dffa-b54a-474f-ab8a-c542440d5124",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 5,
+    "raw_html": "<header><h1>HealthPlus Blog</h1><p>Exploring space exploration</p></header>",
+    "raw_html_chunk": "<header><h1>HealthPlus Blog</h1><p>Exploring space exploration</p></header>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<header><h1>HealthPlus Blog</h1><p>Exploring space exploration</p></header>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "We are a company specializing in budgeting. Established in 2005.",
+    "split_strip_html_id": "c7c8a297-28b9-4f91-86e5-23a476255562",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 29,
+    "raw_html": "<section id='about'><p>We are a company specializing in budgeting. Established in 2005.</p></section>",
+    "raw_html_chunk": "<section id='about'><p>We are a company specializing in budgeting. Established in 2005.</p></section>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<section id='about'><p>We are a company specializing in budgeting. Established in 2005.</p></section>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Extract the meaningful plain text by combining the results from each chunk.",
+    "split_strip_html_id": "4f515c86-ba3b-41b3-a451-12a16c3400a2",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 45,
+    "raw_html": "<article><h2>Tips & Tricks</h2><p>Published on <time>2023-11-01</time> by <em>Heidi</em></p></article>",
+    "raw_html_chunk": "<article><h2>Tips & Tricks</h2><p>Published on <time>2023-11-01</time> by <em>Heidi</em></p></article>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<article><h2>Tips & Tricks</h2><p>Published on <time>2023-11-01</time> by <em>Heidi</em></p></article>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "This is the first chunk of meaningful text from the document. It provides an overview of the main topics discussed. The second chunk adds more details and examples to support the initial points made. Finally, the last chunk summarizes the key takeaways and conclusions drawn from the entire document.",
+    "split_strip_html_id": "20e1f9ba-d608-40df-a2cc-ccd44c79c1f1",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 25,
+    "raw_html": "<script>console.log('User logged in: Bob');</script>Please ignore the script tag.",
+    "raw_html_chunk": "<script>console.log('User logged in: Bob');</script>Please ignore the script tag.",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<script>console.log('User logged in: Bob');</script>Please ignore the script tag.\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "This is the meaningful plain text extracted from the combined document chunks.",
+    "split_strip_html_id": "a67b113d-4050-4175-81f6-ae15033c7024",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 40,
+    "raw_html": "<span style='color: green;'>Error 400:</span> Bad gateway.",
+    "raw_html_chunk": "<span style='color: green;'>Error 400:</span> Bad gateway.",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<span style='color: green;'>Error 400:</span> Bad gateway.\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "<p>This is the first chunk of meaningful text extracted from the document.</p><p>Here is the second chunk, providing additional insights and information.</p><p>Finally, this is the last chunk, summarizing the key points discussed in the document.</p>",
+    "split_strip_html_id": "d0424ab6-d812-46be-af64-be69054c7e8a",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 49,
+    "raw_html": "<br><p>Just some plain text wrapped in <div>tags</div>. ID: e3326a92</p>",
+    "raw_html_chunk": "<br><p>Just some plain text wrapped in <div>tags</div>. ID: e3326a92</p>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<br><p>Just some plain text wrapped in <div>tags</div>. ID: e3326a92</p>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "<p>This is the first chunk of text from the document. It contains important information about the topic.</p><p>Here is the second chunk, which adds more details and context to the discussion.</p><p>Finally, this is the last chunk that summarizes the key points and concludes the document.</p>",
+    "split_strip_html_id": "e203514a-aad5-4cd4-ba75-bf922d49a738",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 38,
+    "raw_html": "<br><p>Just some plain text wrapped in <div>tags</div>. ID: ea7206b6</p>",
+    "raw_html_chunk": "<br><p>Just some plain text wrapped in <div>tags</div>. ID: ea7206b6</p>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<br><p>Just some plain text wrapped in <div>tags</div>. ID: ea7206b6</p>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "<p>This is the first chunk of text from the document. It contains important information about the topic.</p><p>Here is the second chunk, which adds more details and context to the discussion.</p><p>Finally, this is the last chunk that summarizes the key points and concludes the document.</p>",
+    "split_strip_html_id": "2bbc6cd9-9e96-4f9f-9ffb-ba9f2037ddd0",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 35,
+    "raw_html": "<br><p>Just some plain text wrapped in <div>tags</div>. ID: d2604a7e</p>",
+    "raw_html_chunk": "<br><p>Just some plain text wrapped in <div>tags</div>. ID: d2604a7e</p>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<br><p>Just some plain text wrapped in <div>tags</div>. ID: d2604a7e</p>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "<p>This is the first chunk of text from the document. It contains important information about the topic.</p><p>Here is the second chunk, which adds more details and context to the discussion.</p><p>Finally, this is the last chunk that summarizes the key points and provides a conclusion.</p>",
+    "split_strip_html_id": "e658dcda-b546-42d7-ab9b-1eca248901b2",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 36,
+    "raw_html": "<br><p>Just some plain text wrapped in <div>tags</div>. ID: 2e205c6f</p>",
+    "raw_html_chunk": "<br><p>Just some plain text wrapped in <div>tags</div>. ID: 2e205c6f</p>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<br><p>Just some plain text wrapped in <div>tags</div>. ID: 2e205c6f</p>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "E=mc2 - Jobs",
+    "split_strip_html_id": "1a2ed2db-b4fb-42ef-9c09-15c43c4fd18c",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 32,
+    "raw_html": "<blockquote>E=mc2 <cite>- Jobs</cite></blockquote>",
+    "raw_html_chunk": "<blockquote>E=mc2 <cite>- Jobs</cite></blockquote>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<blockquote>E=mc2 <cite>- Jobs</cite></blockquote>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "<p>This is the first chunk of text from the document. It contains important information about the topic.</p><p>Here is the second chunk, which adds more details and context to the discussion.</p><p>Finally, this is the last chunk that summarizes the key points and provides a conclusion.</p>",
+    "split_strip_html_id": "1b738992-8351-4f05-95b8-4258b2f806b2",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 15,
+    "raw_html": "<br><p>Just some plain text wrapped in <div>tags</div>. ID: 3a5f76a0</p>",
+    "raw_html_chunk": "<br><p>Just some plain text wrapped in <div>tags</div>. ID: 3a5f76a0</p>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<br><p>Just some plain text wrapped in <div>tags</div>. ID: 3a5f76a0</p>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "This is the first chunk of text from the document. It contains important information about the topic at hand. \n\nHere is the second chunk, which adds more details and context to the discussion. \n\nFinally, the third chunk wraps up the main points and provides a conclusion.",
+    "split_strip_html_id": "935e37ce-2d3f-4535-9b81-4ab3d27d59ea",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 46,
+    "raw_html": "<script>console.log('User logged in: Alice');</script>Please ignore the script tag.",
+    "raw_html_chunk": "<script>console.log('User logged in: Alice');</script>Please ignore the script tag.",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<script>console.log('User logged in: Alice');</script>Please ignore the script tag.\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Jobs are an essential part of our lives, providing not only income but also a sense of purpose and fulfillment. In today's competitive market, finding the right job can be challenging. It's important to tailor your resume and cover letter to highlight your skills and experiences that align with the job description. Networking can also play a crucial role in job searching, as many positions are filled through referrals. Additionally, preparing for interviews by researching the company and practicing common interview questions can significantly increase your chances of success. Remember to follow up after interviews to express your gratitude and reiterate your interest in the position.",
+    "split_strip_html_id": "edd136f8-a9f7-4440-a954-e84e1d2313fa",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 4,
+    "raw_html": "<blockquote>Just do it. <cite>- Jobs</cite></blockquote>",
+    "raw_html_chunk": "<blockquote>Just do it. <cite>- Jobs</cite></blockquote>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<blockquote>Just do it. <cite>- Jobs</cite></blockquote>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Industry News",
+    "split_strip_html_id": "8a978529-313b-4ca0-b857-1be5357e85b5",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 18,
+    "raw_html": "<figure><img src='splash.jpg' alt='Company Logo'><figcaption>Fig 1. Industry News</figcaption></figure>",
+    "raw_html_chunk": "<figure><img src='splash.jpg' alt='Company Logo'><figcaption>Fig 1. Industry News</figcaption></figure>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<figure><img src='splash.jpg' alt='Company Logo'><figcaption>Fig 1. Industry News</figcaption></figure>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Contact us at admin@test.com",
+    "split_strip_html_id": "90df4af1-ad8e-42c1-a3ab-80b627d27fb1",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 9,
+    "raw_html": "<footer>Contact us at <a href='mailto:admin@test.com'>admin@test.com</a></footer>",
+    "raw_html_chunk": "<footer>Contact us at <a href='mailto:admin@test.com'>admin@test.com</a></footer>",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<footer>Contact us at <a href='mailto:admin@test.com'>admin@test.com</a></footer>\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  },
+  {
+    "clean_text": "Warning: System maintenance scheduled for next week.",
+    "split_strip_html_id": "0d268eae-96c6-4583-9b1c-382b40cc8ed8",
+    "_counts_prereduce_reduce_strip_html": 1,
+    "id": 20,
+    "raw_html": "<strong>Warning:</strong> System maintenance scheduled for <i>next week</i>.",
+    "raw_html_chunk": "<strong>Warning:</strong> System maintenance scheduled for <i>next week</i>.",
+    "split_strip_html_chunk_num": 1,
+    "raw_html_chunk_rendered": "--- Previous Context ---\n--- End Previous Context ---\n\n--- Begin Main Chunk ---\n<strong>Warning:</strong> System maintenance scheduled for <i>next week</i>.\n--- End Main Chunk ---\n\n--- Next Context ---\n--- End Next Context ---"
+  }
+]

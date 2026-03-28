@@ -1,0 +1,61 @@
+datasets:
+  transcripts:
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\medical_transcripts.json
+    type: file
+default_model: gpt-5-nano
+bypass_cache: true
+optimizer_config:
+  type: moar
+  dataset_path: medical_transcripts.json
+  save_dir: results/moar_optimization
+  available_models:
+  - gpt-5-nano
+  evaluation_file: evaluate_medications.py
+  metric_key: medication_extraction_score
+  max_iterations: 20
+  model: gpt-5-nano
+system_prompt:
+  dataset_description: a collection of transcripts of doctor visits
+  persona: a medical practitioner analyzing patient symptoms and reactions to medications
+operations:
+- name: summarize_medications_downstream
+  type: map
+  prompt: 'Summarize the following medical transcript into a concise, downstream-friendly
+    summary that preserves all information needed by downstream operators. Specifically
+    ensure that every medication mentioned in the transcript is preserved in the summary
+    (names and any dosages or frequencies provided). Include: medications with dosages,
+    patient symptoms and complaints, medical history, current conditions, patient
+    demographics (e.g., age, sex), allergies, and any contraindications or potential
+    drug interactions mentioned. Exclude scheduling, billing, and casual conversation.
+    Transcript: {{ input.src }}'
+  model: gpt-5-nano
+  litellm_completion_kwargs:
+    temperature: 0
+  output:
+    schema:
+      src: string
+- name: extract_medications
+  type: map
+  output:
+    schema:
+      medication: list[str]
+  prompt: 'Analyze the following transcript of a conversation between a doctor and
+    a patient:
+
+    {{ input.src }}
+
+    Extract and list all medications mentioned in the transcript.
+
+    If no medications are mentioned, return an empty list.
+
+    '
+pipeline:
+  steps:
+  - name: medication_extraction
+    input: transcripts
+    operations:
+    - summarize_medications_downstream
+    - extract_medications
+  output:
+    type: file
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\results\moar_optimization\pipeline_2.json

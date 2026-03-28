@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "raw_html": "a",
+    "clean_text": "a"
+  },
+  {
+    "id": 2,
+    "raw_html": "Price: $68.46",
+    "clean_text": "Price: $68.46"
+  },
+  {
+    "id": 3,
+    "raw_html": "l",
+    "clean_text": "l"
+  },
+  {
+    "id": 4,
+    "raw_html": "<blockquote>Just do it. <cite>- Jobs</cite></blockquote>",
+    "clean_text": "Just do it. - Jobs"
+  },
+  {
+    "id": 5,
+    "raw_html": "1",
+    "clean_text": "1"
+  },
+  {
+    "id": 6,
+    "raw_html": "1",
+    "clean_text": "1"
+  },
+  {
+    "id": 7,
+    "raw_html": "<a href='https://demo.com' target='_blank'>Click here</a> to learn more about space exploration.",
+    "clean_text": "Click here to learn more about space exploration."
+  },
+  {
+    "id": 8,
+    "raw_html": "Click here to learn more about healthy eating.",
+    "clean_text": "Click here to learn more about healthy eating."
+  },
+  {
+    "id": 9,
+    "raw_html": "Contact us at admin@test.com",
+    "clean_text": "Contact us at admin@test.com"
+  },
+  {
+    "id": 10,
+    "raw_html": "<footer>Contact us at <a href='mailto:admin@sample.com'>admin@sample.com</a></footer>",
+    "clean_text": "Contact us at admin@sample.com"
+  },
+  {
+    "id": 11,
+    "raw_html": "e",
+    "clean_text": "e"
+  },
+  {
+    "id": 12,
+    "raw_html": "e",
+    "clean_text": "e"
+  },
+  {
+    "id": 13,
+    "raw_html": "1",
+    "clean_text": "1"
+  },
+  {
+    "id": 14,
+    "raw_html": "t",
+    "clean_text": "t"
+  },
+  {
+    "id": 15,
+    "raw_html": ">",
+    "clean_text": ""
+  },
+  {
+    "id": 16,
+    "raw_html": "e",
+    "clean_text": "e"
+  },
+  {
+    "id": 17,
+    "raw_html": "1",
+    "clean_text": "1"
+  },
+  {
+    "id": 18,
+    "raw_html": "<figure><img src='splash.jpg' alt='Company Logo'><figcaption>Fig 1. Industry News</figcaption></figure>",
+    "clean_text": "Fig 1. Industry News"
+  },
+  {
+    "id": 19,
+    "raw_html": "e",
+    "clean_text": "e"
+  },
+  {
+    "id": 20,
+    "raw_html": "t",
+    "clean_text": "t"
+  },
+  {
+    "id": 21,
+    "raw_html": "r",
+    "clean_text": "r"
+  },
+  {
+    "id": 22,
+    "raw_html": "<form action='/submit' method='post'>\n<input type='text' name='user' value='Bob'>\n<input type='submit' value='Submit'>\n</form>\n\nPlease fill the form.",
+    "clean_text": "Please fill the form."
+  },
+  {
+    "id": 23,
+    "raw_html": "<a href='https://demo.com' target='_blank'>Click here</a> to learn more about budgeting.",
+    "clean_text": "Click here to learn more about budgeting."
+  },
+  {
+    "id": 24,
+    "raw_html": "r",
+    "clean_text": "r"
+  },
+  {
+    "id": 25,
+    "raw_html": "Please ignore the script tag.",
+    "clean_text": "Please ignore the script tag."
+  },
+  {
+    "id": 26,
+    "raw_html": "a",
+    "clean_text": "a"
+  },
+  {
+    "id": 27,
+    "raw_html": "<form action='/submit' method='post'>\n<input type='text' name='user' value='Grace'>\n<input type='submit' value='Submit'>\n</form>\nPlease fill the form.",
+    "clean_text": "Please fill the form."
+  },
+  {
+    "id": 28,
+    "raw_html": "3",
+    "clean_text": "3"
+  },
+  {
+    "id": 29,
+    "raw_html": "e",
+    "clean_text": "e"
+  },
+  {
+    "id": 30,
+    "raw_html": "l",
+    "clean_text": "l"
+  },
+  {
+    "id": 31,
+    "raw_html": "1",
+    "clean_text": "1"
+  },
+  {
+    "id": 32,
+    "raw_html": "<blockquote>E=mc2 <cite>- Jobs</cite></blockquote>",
+    "clean_text": "E=mc2 - Jobs"
+  },
+  {
+    "id": 33,
+    "raw_html": "<a href='https://sample.com' target='_blank'>Click here</a> to learn more about space exploration.",
+    "clean_text": "Click here to learn more about space exploration."
+  },
+  {
+    "id": 34,
+    "raw_html": "i",
+    "clean_text": "i"
+  },
+  {
+    "id": 35,
+    "raw_html": ">",
+    "clean_text": ""
+  },
+  {
+    "id": 36,
+    "raw_html": ">",
+    "clean_text": ">"
+  },
+  {
+    "id": 37,
+    "raw_html": "Please fill the form.\n\nUser: Alice",
+    "clean_text": "Please fill the form.\n\nUser: Alice"
+  },
+  {
+    "id": 38,
+    "raw_html": ">",
+    "clean_text": ""
+  },
+  {
+    "id": 39,
+    "raw_html": "e",
+    "clean_text": "e"
+  },
+  {
+    "id": 40,
+    "raw_html": "<span style='color: green;'>Error 400:</span> Bad gateway.",
+    "clean_text": "Error 400: Bad gateway."
+  },
+  {
+    "id": 41,
+    "raw_html": "1",
+    "clean_text": "1"
+  },
+  {
+    "id": 42,
+    "raw_html": "1",
+    "clean_text": "1"
+  },
+  {
+    "id": 43,
+    "raw_html": "1",
+    "clean_text": "1"
+  },
+  {
+    "id": 44,
+    "raw_html": "1",
+    "clean_text": "1"
+  },
+  {
+    "id": 45,
+    "raw_html": "r",
+    "clean_text": "r"
+  },
+  {
+    "id": 46,
+    "raw_html": "Please ignore the script tag.",
+    "clean_text": "Please ignore the script tag."
+  },
+  {
+    "id": 47,
+    "raw_html": "1",
+    "clean_text": "1"
+  },
+  {
+    "id": 48,
+    "raw_html": "e",
+    "clean_text": "e"
+  },
+  {
+    "id": 49,
+    "raw_html": ">",
+    "clean_text": ""
+  },
+  {
+    "id": 50,
+    "raw_html": "<footer>Contact us at <a href='mailto:admin@store.com'>admin@store.com</a></footer>",
+    "clean_text": "Contact us at admin@store.com"
+  }
+]

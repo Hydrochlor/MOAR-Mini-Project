@@ -1,0 +1,45 @@
+datasets:
+  html_docs:
+    path: C:\Users\Hydrochloric\Desktop\mini-project\reproduce_moar_2\html_data.json
+    type: file
+default_model: gpt-4o-mini
+bypass_cache: true
+optimizer_config:
+  type: moar
+  dataset_path: html_data.json
+  save_dir: results/moar_optimization_html
+  available_models:
+  - gpt-4o-mini
+  - gpt-4o
+  - gpt-5-mini
+  evaluation_file: evaluate_html.py
+  metric_key: html_clean_score
+  max_iterations: 15
+  model: gpt-4o
+system_prompt:
+  dataset_description: A dataset containing text scraped from web pages, mixed with
+    HTML tags.
+  persona: A data engineer cleaning text data for natural language processing.
+operations:
+- name: strip_html_python
+  type: code_map
+  code: "def transform(input_doc):\n    import re\n    raw_html = input_doc.get('raw_html',\
+    \ '')\n    # Use regex to remove HTML tags\n    clean_text = re.sub('<[^<]+?>',\
+    \ ' ', raw_html)\n    return {'clean_text': clean_text.strip()}"
+  prompt: 'Extract and clean text from the given HTML content: {{ input.raw_html }}.
+    Focus on removing precisely the HTML tags while preserving the inner text. Ensure
+    that repetitive content or nested HTML elements are handled, such as text appearing
+    within multiple layers of tags. Replace all HTML tag occurrences with a single
+    space, maintaining the order and readability of the original text content. Additionally,
+    manage special characters or HTML entities that may appear within the text to
+    ensure they don''t disrupt the final output. Return the cleaned text as a plain
+    string.'
+pipeline:
+  steps:
+  - name: clean_web_data
+    input: html_docs
+    operations:
+    - strip_html_python
+  output:
+    type: file
+    path: C:\Users\Hydrochloric\Desktop\mini-project\reproduce_moar_2\results\moar_optimization_html\pipeline_12-2-cost.json

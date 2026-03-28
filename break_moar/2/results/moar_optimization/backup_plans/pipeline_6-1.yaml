@@ -1,0 +1,81 @@
+datasets:
+  transcripts:
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\medical_transcripts.json
+    type: file
+default_model: gpt-4o
+bypass_cache: true
+optimizer_config:
+  type: moar
+  dataset_path: medical_transcripts.json
+  save_dir: results/moar_optimization
+  available_models:
+  - gpt-4o-mini
+  - gpt-4o
+  - gpt-5-mini
+  - gpt-5-nano
+  evaluation_file: evaluate_medications.py
+  metric_key: medication_extraction_score
+  max_iterations: 20
+  model: gpt-4o
+system_prompt:
+  dataset_description: a collection of transcripts of doctor visits
+  persona: a medical practitioner analyzing patient symptoms and reactions to medications
+operations:
+- name: split_extract_medications
+  type: split
+  split_key: src
+  method: token_count
+  method_kwargs:
+    num_tokens: 12000
+    model: gpt-4o
+- name: topk_extract_medications_chunks
+  type: topk
+  method: embedding
+  k: 5
+  keys:
+  - src_chunk
+  query: medications drugs prescribed treatment dosage
+  stratify_key:
+  - split_extract_medications_id
+  embedding_model: text-embedding-3-small
+- name: reduce_extract_medications
+  type: reduce
+  reduce_key: split_extract_medications_id
+  prompt: 'Analyze the following transcript of a conversation between a doctor and
+    a patient:
+
+    the top {{ inputs|length }} most relevant chunks from the document (ordered by
+    relevance):
+
+    {% for input in inputs|sort(attribute=''_topk_extract_medications_chunks_rank'')
+    %}
+
+    Chunk (Rank {{ input._topk_extract_medications_chunks_rank }}, Score {{ input._topk_extract_medications_chunks_score
+    }}):
+
+    {{ input.src_chunk }}
+
+    {% endfor %}Extract and list all medications mentioned in the transcript.
+
+    If no medications are mentioned, return an empty list.
+
+    '
+  model: gpt-4o
+  litellm_completion_kwargs:
+    temperature: 0
+  output:
+    schema:
+      medication: list[str]
+  associative: false
+  pass_through: true
+pipeline:
+  steps:
+  - name: medication_extraction
+    input: transcripts
+    operations:
+    - split_extract_medications
+    - topk_extract_medications_chunks
+    - reduce_extract_medications
+  output:
+    type: file
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\results\moar_optimization\pipeline_2-1-cost.json

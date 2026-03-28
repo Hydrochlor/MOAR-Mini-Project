@@ -1,0 +1,108 @@
+[
+  {
+    "file": "pipeline_gpt-4o-mini.json",
+    "html_clean_score": 41,
+    "node_id": 1,
+    "cost": 0.0022734,
+    "visits": 20,
+    "value": -56.0,
+    "moar_accuracy": 41,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_6.json",
+    "html_clean_score": 48,
+    "node_id": 6,
+    "cost": 0.0020176500000000006,
+    "visits": 12,
+    "value": 28.0,
+    "moar_accuracy": 48,
+    "on_frontier": true,
+    "rank": 1,
+    "accuracy_metric": "html_clean_score"
+  },
+  {
+    "file": "pipeline_4.json",
+    "html_clean_score": 50,
+    "node_id": 4,
+    "cost": 0.0045579,
+    "visits": 2,
+    "value": -25,
+    "moar_accuracy": 50,
+    "on_frontier": true,
+    "rank": 3,
+    "accuracy_metric": "html_clean_score"
+  },
+  {
+    "file": "pipeline_5.json",
+    "html_clean_score": 36,
+    "node_id": 5,
+    "cost": 0.019395750000000003,
+    "visits": 1,
+    "value": -14,
+    "moar_accuracy": 36,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_7.json",
+    "html_clean_score": 46,
+    "node_id": 7,
+    "cost": 0.00486255,
+    "visits": 1,
+    "value": -4,
+    "moar_accuracy": 46,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_8.json",
+    "html_clean_score": 41,
+    "node_id": 8,
+    "cost": 0.0026409,
+    "visits": 1,
+    "value": -7,
+    "moar_accuracy": 41,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_9.json",
+    "html_clean_score": 48,
+    "node_id": 9,
+    "cost": 0.0020176500000000006,
+    "visits": 1,
+    "value": 0,
+    "moar_accuracy": 48,
+    "on_frontier": true,
+    "rank": 2,
+    "accuracy_metric": "html_clean_score"
+  },
+  {
+    "file": "pipeline_10.json",
+    "html_clean_score": 34,
+    "node_id": 10,
+    "cost": 0.0449575,
+    "visits": 1,
+    "value": -16,
+    "moar_accuracy": 34,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_11.json",
+    "html_clean_score": 19,
+    "node_id": 11,
+    "cost": 0.004757850000000001,
+    "visits": 1,
+    "value": -31,
+    "moar_accuracy": 19,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_12.json",
+    "html_clean_score": 21,
+    "node_id": 12,
+    "cost": 0.0033259500000000007,
+    "visits": 1,
+    "value": -27,
+    "moar_accuracy": 21,
+    "on_frontier": false
+  }
+]

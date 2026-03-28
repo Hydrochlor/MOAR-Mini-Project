@@ -1,0 +1,61 @@
+datasets:
+  logs:
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\server_logs.json
+    type: file
+default_model: gpt-4o-mini
+bypass_cache: true
+optimizer_config:
+  type: moar
+  dataset_path: server_logs.json
+  save_dir: results/moar_optimization
+  available_models:
+  - gpt-4o-mini
+  - gpt-4o
+  - gpt-5-mini
+  evaluation_file: evaluate_logs.py
+  metric_key: ip_extraction_score
+  max_iterations: 15
+  model: gpt-4o
+system_prompt:
+  dataset_description: a collection of server logs
+  persona: a system administrator extracting network information
+operations:
+- name: detect_possible_ip_patterns
+  type: map
+  prompt: 'Review the following server log entry:
+
+    {{ input.log }}
+
+    Identify and list all segments in the log that have the potential structure or
+    pattern of IPv4 addresses. E.g., sequences that resemble ''XXX.XXX.XXX.XXX''.
+    Return as a list of candidate strings.'
+  model: gpt-4o-mini
+  litellm_completion_kwargs:
+    temperature: 0
+  output:
+    schema:
+      ip_candidates: string
+- name: validate_ipv4_addresses
+  type: map
+  prompt: 'Using the list of candidate strings from the log entry, determine and confirm
+    which entries are valid IPv4 addresses.
+
+    Candidates: {{ input.ip_candidates }}
+
+    Return the confirmed list of valid IPv4 addresses.'
+  model: gpt-4o-mini
+  litellm_completion_kwargs:
+    temperature: 0
+  output:
+    schema:
+      ip_address: list[str]
+pipeline:
+  steps:
+  - name: parse_logs
+    input: logs
+    operations:
+    - detect_possible_ip_patterns
+    - validate_ipv4_addresses
+  output:
+    type: file
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\results\moar_optimization\pipeline_11.json

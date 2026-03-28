@@ -1,0 +1,48 @@
+datasets:
+  html_docs:
+    path: html_data.json
+    type: file
+
+default_model: gpt-4o-mini
+bypass_cache: true
+
+optimizer_config:
+  type: moar
+  dataset_path: html_data.json
+  save_dir: results/moar_optimization_html
+  available_models: 
+    # - gpt-5-nano
+    - gpt-4o-mini
+    - gpt-4o
+    - gpt-5-mini
+  evaluation_file: evaluate_html.py
+  metric_key: html_clean_score
+  max_iterations: 15
+  model: gpt-4o
+
+system_prompt:
+  dataset_description: A dataset containing text scraped from web pages, mixed with HTML tags.
+  persona: A data engineer cleaning text data for natural language processing.
+
+operations:
+  - name: strip_html
+    type: map
+    output:
+      schema:
+        clean_text: str
+    prompt: |
+      Extract the plain text from the following HTML content by removing all HTML tags.
+      Do not add any extra commentary, just return the cleaned text.
+      
+      HTML content:
+      {{ input.raw_html }}
+
+pipeline:
+  steps:
+    - name: clean_web_data
+      input: html_docs
+      operations:
+        - strip_html
+  output:
+    type: file
+    path: cleaned_html_results.json

@@ -1,0 +1,38 @@
+datasets:
+  html_docs:
+    path: C:\Users\Hydrochloric\Desktop\mini-project\reproduce_moar_2\html_data.json
+    type: file
+default_model: gpt-4o-mini
+bypass_cache: true
+optimizer_config:
+  type: moar
+  dataset_path: html_data.json
+  save_dir: results/moar_optimization_html
+  available_models:
+  - gpt-4o-mini
+  - gpt-4o
+  - gpt-5-mini
+  evaluation_file: evaluate_html.py
+  metric_key: html_clean_score
+  max_iterations: 15
+  model: gpt-4o
+system_prompt:
+  dataset_description: A dataset containing text scraped from web pages, mixed with
+    HTML tags.
+  persona: A data engineer cleaning text data for natural language processing.
+operations:
+- name: strip_html_python
+  type: code_map
+  code: "def transform(input_doc):\n    import re\n    raw_html = input_doc.get('raw_html',\
+    \ '')\n    # Use regex to remove HTML tags\n    clean_text = re.sub('<[^<]+?>',\
+    \ ' ', raw_html)\n    return {'clean_text': clean_text.strip()}"
+  model: gpt-5-mini
+pipeline:
+  steps:
+  - name: clean_web_data
+    input: html_docs
+    operations:
+    - strip_html_python
+  output:
+    type: file
+    path: C:\Users\Hydrochloric\Desktop\mini-project\reproduce_moar_2\results\moar_optimization_html\pipeline_13.json

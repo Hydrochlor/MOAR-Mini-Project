@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "raw_html": "Today's top story: New Launch",
+    "clean_text": "Today's top story: New Launch"
+  },
+  {
+    "id": 2,
+    "raw_html": "Price: $68.46",
+    "clean_text": "Price: $68.46"
+  },
+  {
+    "id": 3,
+    "raw_html": "Dates\nElderberries\nDates",
+    "clean_text": "Dates\nElderberries\nDates"
+  },
+  {
+    "id": 4,
+    "raw_html": "Just do it. - Jobs",
+    "clean_text": "Just do it. - Jobs"
+  },
+  {
+    "id": 5,
+    "raw_html": "HealthPlus Blog\nExploring space exploration",
+    "clean_text": "HealthPlus Blog\nExploring space exploration"
+  },
+  {
+    "id": 6,
+    "raw_html": "Weekly Digest",
+    "clean_text": "Weekly Digest"
+  },
+  {
+    "id": 7,
+    "raw_html": "Click here to learn more about space exploration.",
+    "clean_text": "Click here to learn more about space exploration."
+  },
+  {
+    "id": 8,
+    "raw_html": "Click here to learn more about healthy eating.",
+    "clean_text": "Click here to learn more about healthy eating."
+  },
+  {
+    "id": 9,
+    "raw_html": "Contact us at admin@test.com",
+    "clean_text": "Contact us at admin@test.com"
+  },
+  {
+    "id": 10,
+    "raw_html": "Contact us at admin@sample.com",
+    "clean_text": "Contact us at admin@sample.com"
+  },
+  {
+    "id": 11,
+    "raw_html": "HealthPlus Blog\nExploring budgeting",
+    "clean_text": "HealthPlus Blog\nExploring budgeting"
+  },
+  {
+    "id": 12,
+    "raw_html": "DataCorp Blog\nExploring space exploration",
+    "clean_text": "DataCorp Blog\nExploring space exploration"
+  },
+  {
+    "id": 13,
+    "raw_html": "Market Analysis",
+    "clean_text": "Market Analysis"
+  },
+  {
+    "id": 14,
+    "raw_html": "Warning: System maintenance scheduled for tonight.",
+    "clean_text": "Warning: System maintenance scheduled for tonight."
+  },
+  {
+    "id": 15,
+    "raw_html": "Just some plain text wrapped in tags. ID: 3a5f76a0",
+    "clean_text": "Just some plain text wrapped in tags. ID: 3a5f76a0"
+  },
+  {
+    "id": 16,
+    "raw_html": "We are a company specializing in climate change. Established in 2023.",
+    "clean_text": "We are a company specializing in climate change. Established in 2023."
+  },
+  {
+    "id": 17,
+    "raw_html": "GameZone Blog\nExploring robotics",
+    "clean_text": "GameZone Blog\nExploring robotics"
+  },
+  {
+    "id": 18,
+    "raw_html": "Industry News",
+    "clean_text": "Industry News"
+  },
+  {
+    "id": 19,
+    "raw_html": "TechHub Blog\nExploring healthy eating",
+    "clean_text": "TechHub Blog\nExploring healthy eating"
+  },
+  {
+    "id": 20,
+    "raw_html": "Warning: System maintenance scheduled for next week.",
+    "clean_text": "Warning: System maintenance scheduled for next week."
+  },
+  {
+    "id": 21,
+    "raw_html": "Q3 Update\nPublished on 2024-02-14 by Diana",
+    "clean_text": "Q3 Update\nPublished on 2024-02-14 by Diana"
+  },
+  {
+    "id": 22,
+    "raw_html": "Please fill the form.",
+    "clean_text": "Please fill the form."
+  },
+  {
+    "id": 23,
+    "raw_html": "Click here to learn more about budgeting.",
+    "clean_text": "Click here to learn more about budgeting."
+  },
+  {
+    "id": 24,
+    "raw_html": "Weekly Digest\nPublished on 2023-12-05 by Diana",
+    "clean_text": "Weekly Digest\nPublished on 2023-12-05 by Diana"
+  },
+  {
+    "id": 25,
+    "raw_html": "Please ignore the script tag.",
+    "clean_text": "Please ignore the script tag."
+  },
+  {
+    "id": 26,
+    "raw_html": "Today's top story: Market Analysis",
+    "clean_text": "Today's top story: Market Analysis"
+  },
+  {
+    "id": 27,
+    "raw_html": "Please fill the form.",
+    "clean_text": "Please fill the form."
+  },
+  {
+    "id": 28,
+    "raw_html": "Related Links\nMore on AI",
+    "clean_text": "Related Links\nMore on AI"
+  },
+  {
+    "id": 29,
+    "raw_html": "We are a company specializing in budgeting. Established in 2005.",
+    "clean_text": "We are a company specializing in budgeting. Established in 2005."
+  },
+  {
+    "id": 30,
+    "raw_html": "Apples\nBananas\nBananas",
+    "clean_text": "Apples\nBananas\nBananas"
+  },
+  {
+    "id": 31,
+    "raw_html": "DataCorp Blog\nExploring healthy eating",
+    "clean_text": "DataCorp Blog\nExploring healthy eating"
+  },
+  {
+    "id": 32,
+    "raw_html": "E=mc2 - Jobs",
+    "clean_text": "E=mc2 - Jobs"
+  },
+  {
+    "id": 33,
+    "raw_html": "Click here to learn more about space exploration.",
+    "clean_text": "Click here to learn more about space exploration."
+  },
+  {
+    "id": 34,
+    "raw_html": "Price: $874.51",
+    "clean_text": "Price: $874.51"
+  },
+  {
+    "id": 35,
+    "raw_html": "Just some plain text wrapped in tags. ID: d2604a7e",
+    "clean_text": "Just some plain text wrapped in tags. ID: d2604a7e"
+  },
+  {
+    "id": 36,
+    "raw_html": "Just some plain text wrapped in tags. ID: 2e205c6f",
+    "clean_text": "Just some plain text wrapped in tags. ID: 2e205c6f"
+  },
+  {
+    "id": 37,
+    "raw_html": "Please fill the form.",
+    "clean_text": "Please fill the form."
+  },
+  {
+    "id": 38,
+    "raw_html": "Just some plain text wrapped in tags. ID: ea7206b6",
+    "clean_text": "Just some plain text wrapped in tags. ID: ea7206b6"
+  },
+  {
+    "id": 39,
+    "raw_html": "InnoSoft Blog\nExploring climate change",
+    "clean_text": "InnoSoft Blog\nExploring climate change"
+  },
+  {
+    "id": 40,
+    "raw_html": "Error 400: Bad gateway.",
+    "clean_text": "Error 400: Bad gateway."
+  },
+  {
+    "id": 41,
+    "raw_html": "Welcome to the portal, Bob.",
+    "clean_text": "Welcome to the portal, Bob."
+  },
+  {
+    "id": 42,
+    "raw_html": "Welcome to the portal, Alice.",
+    "clean_text": "Welcome to the portal, Alice."
+  },
+  {
+    "id": 43,
+    "raw_html": "Name: Eve\nAge: 25\nCity: Paris",
+    "clean_text": "Name: Eve\nAge: 25\nCity: Paris"
+  },
+  {
+    "id": 44,
+    "raw_html": "Name: Bob\nAge: 45\nCity: Berlin",
+    "clean_text": "Name: Bob\nAge: 45\nCity: Berlin"
+  },
+  {
+    "id": 45,
+    "raw_html": "Tips & Tricks\nPublished on 2023-11-01 by Heidi",
+    "clean_text": "Tips & Tricks\nPublished on 2023-11-01 by Heidi"
+  },
+  {
+    "id": 46,
+    "raw_html": "Please ignore the script tag.",
+    "clean_text": "Please ignore the script tag."
+  },
+  {
+    "id": 47,
+    "raw_html": "Welcome to the portal, Bob.",
+    "clean_text": "Welcome to the portal, Bob."
+  },
+  {
+    "id": 48,
+    "raw_html": "We are a company specializing in budgeting. Established in 2023.",
+    "clean_text": "We are a company specializing in budgeting. Established in 2023."
+  },
+  {
+    "id": 49,
+    "raw_html": "Just some plain text wrapped in tags. ID: e3326a92",
+    "clean_text": "Just some plain text wrapped in tags. ID: e3326a92"
+  },
+  {
+    "id": 50,
+    "raw_html": "Contact us at admin@store.com",
+    "clean_text": "Contact us at admin@store.com"
+  }
+]

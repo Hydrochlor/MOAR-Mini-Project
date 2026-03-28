@@ -1,0 +1,44 @@
+datasets:
+  logs:
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\server_logs.json
+    type: file
+default_model: gpt-4o-mini
+bypass_cache: true
+optimizer_config:
+  type: moar
+  dataset_path: server_logs.json
+  save_dir: results/moar_optimization
+  available_models:
+  - gpt-4o-mini
+  - gpt-4o
+  - gpt-5-mini
+  evaluation_file: evaluate_logs.py
+  metric_key: ip_extraction_score
+  max_iterations: 15
+  model: gpt-4o
+system_prompt:
+  dataset_description: a collection of server logs
+  persona: a system administrator extracting network information
+operations:
+- name: extract_ip
+  type: code_map
+  code: "def transform(input_doc):\n    import re\n    log_entry = input_doc.get('log',\
+    \ '')\n    # Regex pattern for extracting IPv4 addresses\n    ipv4_pattern = r'\\\
+    b(?:[0-9]{1,3}\\.){3}[0-9]{1,3}\\b'\n    # Extract all matching IPv4 addresses\n\
+    \    ip_addresses = re.findall(ipv4_pattern, log_entry)\n    return {\n      \
+    \  'ip_address': ip_addresses\n    }"
+  prompt: 'Extract the IPv4 address in the log entry: {{ input_doc.log }}. Focus on
+    identifying the string pattern within square brackets, which directly follows
+    the log format element (e.g., [xxx.xxx.xxx.xxx]), ensuring only standard IPv4
+    address structures are captured. Validate and return this address even if the
+    log contains errors or warnings, as consistent IP retrieval is crucial for subsequent
+    analyses.'
+pipeline:
+  steps:
+  - name: parse_logs
+    input: logs
+    operations:
+    - extract_ip
+  output:
+    type: file
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\results\moar_optimization\pipeline_8-2-acc.json

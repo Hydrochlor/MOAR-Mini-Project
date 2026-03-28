@@ -1,0 +1,160 @@
+[
+  {
+    "file": "pipeline_gpt-4o-mini.json",
+    "html_clean_score": 48,
+    "node_id": 1,
+    "cost": 0.0025146,
+    "visits": 42,
+    "value": -41.0,
+    "moar_accuracy": 48,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_4.json",
+    "html_clean_score": 45,
+    "node_id": 4,
+    "cost": 0.0199383,
+    "visits": 1,
+    "value": -5,
+    "moar_accuracy": 45,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_5.json",
+    "html_clean_score": 48,
+    "node_id": 5,
+    "cost": 0.0025152,
+    "visits": 5,
+    "value": -8,
+    "moar_accuracy": 48,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_6.json",
+    "html_clean_score": 48,
+    "node_id": 6,
+    "cost": 0.004758000000000001,
+    "visits": 3,
+    "value": -11,
+    "moar_accuracy": 48,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_7.json",
+    "html_clean_score": 48,
+    "node_id": 7,
+    "cost": 0.0028218,
+    "visits": 3,
+    "value": -23,
+    "moar_accuracy": 48,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_8.json",
+    "html_clean_score": 29,
+    "node_id": 8,
+    "cost": 0.005514600000000001,
+    "visits": 1,
+    "value": -21,
+    "moar_accuracy": 29,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_9.json",
+    "html_clean_score": 41,
+    "node_id": 9,
+    "cost": 0.007509899999999999,
+    "visits": 1,
+    "value": -9,
+    "moar_accuracy": 41,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_10.json",
+    "html_clean_score": 48,
+    "node_id": 10,
+    "cost": 0.0025152,
+    "visits": 1,
+    "value": -2,
+    "moar_accuracy": 48,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_11.json",
+    "html_clean_score": 46,
+    "node_id": 11,
+    "cost": 0.0027309000000000005,
+    "visits": 1,
+    "value": -4,
+    "moar_accuracy": 46,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_12.json",
+    "html_clean_score": 50,
+    "node_id": 12,
+    "cost": 0.0,
+    "visits": 16,
+    "value": 50.0,
+    "moar_accuracy": 50,
+    "on_frontier": true,
+    "rank": 1,
+    "accuracy_metric": "html_clean_score"
+  },
+  {
+    "file": "pipeline_13.json",
+    "html_clean_score": 50,
+    "node_id": 13,
+    "cost": 0.0,
+    "visits": 1,
+    "value": 0,
+    "moar_accuracy": 50,
+    "on_frontier": true,
+    "rank": 2,
+    "accuracy_metric": "html_clean_score"
+  },
+  {
+    "file": "pipeline_14.json",
+    "html_clean_score": 50,
+    "node_id": 14,
+    "cost": 0.0,
+    "visits": 1,
+    "value": 0,
+    "moar_accuracy": 50,
+    "on_frontier": true,
+    "rank": 3,
+    "accuracy_metric": "html_clean_score"
+  },
+  {
+    "file": "pipeline_15.json",
+    "html_clean_score": 10,
+    "node_id": 15,
+    "cost": 0.003348299999999999,
+    "visits": 1,
+    "value": -40,
+    "moar_accuracy": 10,
+    "on_frontier": false
+  },
+  {
+    "file": "pipeline_16.json",
+    "html_clean_score": 50,
+    "node_id": 16,
+    "cost": 0.0,
+    "visits": 1,
+    "value": 0,
+    "moar_accuracy": 50,
+    "on_frontier": true,
+    "rank": 4,
+    "accuracy_metric": "html_clean_score"
+  },
+  {
+    "file": "pipeline_17.json",
+    "html_clean_score": 48,
+    "node_id": 17,
+    "cost": 0.00456915,
+    "visits": 1,
+    "value": -2,
+    "moar_accuracy": 48,
+    "on_frontier": false
+  }
+]

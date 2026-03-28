@@ -1,0 +1,74 @@
+datasets:
+  transcripts:
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\medical_transcripts.json
+    type: file
+default_model: gpt-4o-mini
+bypass_cache: true
+optimizer_config:
+  type: moar
+  dataset_path: medical_transcripts.json
+  save_dir: results/moar_optimization
+  available_models:
+  - gpt-4o-mini
+  - gpt-4o
+  - gpt-5-mini
+  - gpt-5-nano
+  evaluation_file: evaluate_medications.py
+  metric_key: medication_extraction_score
+  max_iterations: 20
+  model: gpt-4o
+system_prompt:
+  dataset_description: a collection of transcripts of doctor visits
+  persona: a medical practitioner analyzing patient symptoms and reactions to medications
+operations:
+- name: compress_medication_transcript
+  type: code_map
+  code: "def transform(input_doc):\n    import re\n\n    src_text = input_doc.get('src',\
+    \ '')\n\n    # Patterns to identify medication-related sections\n    medication_patterns\
+    \ = [\n        r'(?i)(medic(ation|ines?)|(prescription )?drugs?)',\n        r'(?i)(dose|dosage|mg|milligram(s)?)',\n\
+    \        r'(?i)(take(s|n|ing)?|administer(s|ed|ing)?)',\n        r'(?i)(pill(s)?|tablet(s)?)'\n\
+    \    ]\n\n    relevant_spans = []\n\n    # Find all matches and extract context\
+    \ around them\n    for pattern in medication_patterns:\n        for match in re.finditer(pattern,\
+    \ src_text):\n            start_pos = match.start()\n            end_pos = match.end()\n\
+    \n            # Extract 400 chars before and 600 chars after the match\n     \
+    \       context_start = max(0, start_pos - 400)\n            context_end = min(len(src_text),\
+    \ end_pos + 600)\n\n            # Extract the context around the match\n     \
+    \       context = src_text[context_start:context_end]\n            relevant_spans.append((context_start,\
+    \ context_end, context))\n\n    # Merge overlapping spans\n    if relevant_spans:\n\
+    \        # Sort by start position\n        relevant_spans.sort(key=lambda x: x[0])\n\
+    \        merged_spans = [relevant_spans[0]]\n\n        for current_start, current_end,\
+    \ current_text in relevant_spans[1:]:\n            last_start, last_end, last_text\
+    \ = merged_spans[-1]\n\n            if current_start <= last_end + 50:  # Merge\
+    \ if spans overlap or are close\n                # Extend the last span\n    \
+    \            new_end = max(last_end, current_end)\n                new_text =\
+    \ src_text[last_start:new_end]\n                merged_spans[-1] = (last_start,\
+    \ new_end, new_text)\n            else:\n                merged_spans.append((current_start,\
+    \ current_end, current_text))\n\n        # Extract all merged texts\n        compressed_text\
+    \ = '\\n\\n--- CONTEXT BREAK ---\\n\\n'.join([span[2] for span in merged_spans])\n\
+    \    else:\n        compressed_text = src_text  # Fallback if no matches\n\n \
+    \   return {\n        'src': compressed_text\n    }\n"
+- name: extract_medications
+  type: map
+  output:
+    schema:
+      medication: list[str]
+  prompt: 'Analyze the following transcript of a conversation between a doctor and
+    a patient:
+
+    {{ input.src }}
+
+    Extract and list all medications mentioned in the transcript.
+
+    If no medications are mentioned, return an empty list.
+
+    '
+pipeline:
+  steps:
+  - name: medication_extraction
+    input: transcripts
+    operations:
+    - compress_medication_transcript
+    - extract_medications
+  output:
+    type: file
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\results\moar_optimization\pipeline_9.json

@@ -1,0 +1,60 @@
+datasets:
+  logs:
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\server_logs.json
+    type: file
+default_model: gpt-4o-mini
+bypass_cache: true
+optimizer_config:
+  type: moar
+  dataset_path: server_logs.json
+  save_dir: results/moar_optimization
+  available_models:
+  - gpt-4o-mini
+  - gpt-4o
+  - gpt-5-mini
+  evaluation_file: evaluate_logs.py
+  metric_key: ip_extraction_score
+  max_iterations: 15
+  model: gpt-4o
+system_prompt:
+  dataset_description: a collection of server logs
+  persona: a system administrator extracting network information
+operations:
+- name: extract_ip_parallel
+  type: parallel_map
+  litellm_completion_kwargs:
+    temperature: 0
+  prompts:
+  - name: extract_ipv4_addresses
+    output_keys:
+    - subtask_1_output
+    prompt: 'Extract all IPv4 addresses from the server log entry: {{ input.log }}'
+  gleaning:
+    validation_prompt: Check if all extracted strings are valid IPv4 addresses in
+      the format 'xxx.xxx.xxx.xxx'. If the list is empty, ensure the log contains
+      no valid IP addresses.
+    num_rounds: 3
+    model: gpt-4o
+  output:
+    schema:
+      subtask_1_output: string
+  model: gpt-4o-mini
+- name: extract_ip_aggregate
+  type: map
+  prompt: '{{ input.subtask_1_output }}'
+  litellm_completion_kwargs:
+    temperature: 0
+  output:
+    schema:
+      ip_address: list[str]
+  model: gpt-4o-mini
+pipeline:
+  steps:
+  - name: parse_logs
+    input: logs
+    operations:
+    - extract_ip_parallel
+    - extract_ip_aggregate
+  output:
+    type: file
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\results\moar_optimization\pipeline_13.json

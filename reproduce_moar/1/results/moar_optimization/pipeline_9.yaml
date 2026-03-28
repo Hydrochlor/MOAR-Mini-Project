@@ -1,0 +1,73 @@
+datasets:
+  logs:
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\server_logs.json
+    type: file
+default_model: gpt-4o-mini
+bypass_cache: true
+optimizer_config:
+  type: moar
+  dataset_path: server_logs.json
+  save_dir: results/moar_optimization
+  available_models:
+  - gpt-4o-mini
+  - gpt-4o
+  - gpt-5-mini
+  evaluation_file: evaluate_logs.py
+  metric_key: ip_extraction_score
+  max_iterations: 15
+  model: gpt-4o
+system_prompt:
+  dataset_description: a collection of server logs
+  persona: a system administrator extracting network information
+operations:
+- name: split_extract_ip
+  type: split
+  split_key: log
+  method: token_count
+  method_kwargs:
+    num_tokens: 10000
+    model: gpt-4o-mini
+- name: topk_extract_ip_chunks
+  type: topk
+  method: fts
+  k: 5
+  keys:
+  - log_chunk
+  query: extract IPv4 addresses log entry network information
+  stratify_key:
+  - split_extract_ip_id
+- name: reduce_extract_ip
+  type: reduce
+  reduce_key: split_extract_ip_id
+  prompt: 'Analyze the following server log entry to extract all IPv4 addresses from
+    the top {{ inputs|length }} most relevant chunks (ordered by relevance):
+
+    {% for input in inputs|sort(attribute=''_topk_extract_ip_chunks_rank'') %}
+
+    Chunk (Rank {{ input._topk_extract_ip_chunks_rank }}, Score {{ input._topk_extract_ip_chunks_score
+    }}):
+
+    {{ input.log_chunk }}
+
+    {% endfor %}
+
+    If no IP addresses are found, return an empty list.'
+  model: gpt-4o-mini
+  litellm_completion_kwargs:
+    temperature: 0
+  output:
+    schema:
+      ip_address: list[str]
+  associative: false
+  pass_through: true
+pipeline:
+  steps:
+  - name: parse_logs
+    input: logs
+    operations:
+    - split_extract_ip
+    - topk_extract_ip_chunks
+    - reduce_extract_ip
+  output:
+    type: file
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\results\moar_optimization\pipeline_9.json

@@ -1,0 +1,75 @@
+datasets:
+  logs:
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\server_logs.json
+    type: file
+default_model: gpt-4o-mini
+bypass_cache: true
+optimizer_config:
+  type: moar
+  dataset_path: server_logs.json
+  save_dir: results/moar_optimization
+  available_models:
+  - gpt-4o-mini
+  - gpt-4o
+  - gpt-5-mini
+  evaluation_file: evaluate_logs.py
+  metric_key: ip_extraction_score
+  max_iterations: 15
+  model: gpt-4o
+system_prompt:
+  dataset_description: a collection of server logs
+  persona: a system administrator extracting network information
+operations:
+- name: reduce_log_content
+  type: code_map
+  code: "def transform(input_doc):\n    import re\n\n    log = input_doc.get('log',\
+    \ '')\n\n    # Pattern to identify IPv4 addresses\n    ipv4_pattern = r'(?<!\\\
+    d)(?:\\d{1,3}\\.){3}\\d{1,3}(?!\\d)'\n\n    relevant_spans = []\n\n    # Find\
+    \ all matches and extract context around them\n    for match in re.finditer(ipv4_pattern,\
+    \ log):\n        start_pos = match.start()\n        end_pos = match.end()\n\n\
+    \        # Extract 50 chars before and 50 chars after the match\n        context_start\
+    \ = max(0, start_pos - 50)\n        context_end = min(len(log), end_pos + 50)\n\
+    \n        # Extract the context around the match\n        context = log[context_start:context_end]\n\
+    \        relevant_spans.append((context_start, context_end, context))\n\n    #\
+    \ Merge overlapping spans and remove duplicates\n    if relevant_spans:\n    \
+    \    # Sort by start position\n        relevant_spans.sort(key=lambda x: x[0])\n\
+    \        merged_spans = [relevant_spans[0]]\n\n        for current_start, current_end,\
+    \ current_text in relevant_spans[1:]:\n            last_start, last_end, last_text\
+    \ = merged_spans[-1]\n\n            if current_start <= last_end + 10:  # Merge\
+    \ if close enough\n                # Extend the last span\n                new_end\
+    \ = max(last_end, current_end)\n                new_text = log[last_start:new_end]\n\
+    \                merged_spans[-1] = (last_start, new_end, new_text)\n        \
+    \    else:\n                merged_spans.append((current_start, current_end, current_text))\n\
+    \n        # Extract just the text portions\n        compressed_text = '\\n'.join([span[2]\
+    \ for span in merged_spans])\n    else:\n        compressed_text = log  # Fallback\
+    \ if no matches\n\n    return {\n        'log': compressed_text\n    }"
+- name: extract_ip
+  type: map
+  output:
+    schema:
+      ip_address: list[str]
+  prompt: 'Analyze the following server log entry:
+
+    {{ input.log }}
+
+    Extract all IPv4 addresses from the log message.
+
+    If no IP addresses are found, return an empty list.
+
+    '
+  gleaning:
+    validation_prompt: Check if all extracted strings are valid IPv4 addresses in
+      the format 'xxx.xxx.xxx.xxx'. If the list is empty, ensure the log contains
+      no valid IP addresses.
+    num_rounds: 3
+    model: gpt-4o
+pipeline:
+  steps:
+  - name: parse_logs
+    input: logs
+    operations:
+    - reduce_log_content
+    - extract_ip
+  output:
+    type: file
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\results\moar_optimization\pipeline_5-2-acc.json

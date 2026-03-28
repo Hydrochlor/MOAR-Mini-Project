@@ -1,0 +1,47 @@
+datasets:
+  transcripts:
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\medical_transcripts.json
+    type: file
+default_model: gpt-4o
+bypass_cache: true
+optimizer_config:
+  type: moar
+  dataset_path: medical_transcripts.json
+  save_dir: results/moar_optimization
+  available_models:
+  - gpt-4o-mini
+  - gpt-4o
+  - gpt-5-mini
+  - gpt-5-nano
+  evaluation_file: evaluate_medications.py
+  metric_key: medication_extraction_score
+  max_iterations: 20
+  model: gpt-4o
+system_prompt:
+  dataset_description: a collection of transcripts of doctor visits
+  persona: a medical practitioner analyzing patient symptoms and reactions to medications
+operations:
+- name: extract_medications
+  type: map
+  output:
+    schema:
+      medication: list[str]
+  prompt: "Analyze the following transcript of a conversation between a doctor and\
+    \ a patient:\n{{ input.src }}\n\nInstructions:\n1. Extract all mentioned medications,\
+    \ including:\n    a. Medications stated by name (e.g., 'Tylenol', 'Synthroid',\
+    \ 'Imitrex').\n    b. Medications referred to by type in relation to conditions\
+    \ (e.g., 'blood pressure medication'). For these, use the condition as a placeholder\
+    \ (e.g., 'medication for hypertension').\n2. Consider both explicit mentions by\
+    \ the patient and references by the doctor when reviewing the patient's current\
+    \ or past medications.\n3. Return a list of medications specifically relating\
+    \ to treatment, management, or prescription guidance as discussed during the conversation.\n\
+    4. If no medications are mentioned, return an empty list."
+pipeline:
+  steps:
+  - name: medication_extraction
+    input: transcripts
+    operations:
+    - extract_medications
+  output:
+    type: file
+    path: C:\Users\Hydrochloric\Desktop\mini-project\MOAR_4\results\moar_optimization\pipeline_2-1-acc.json

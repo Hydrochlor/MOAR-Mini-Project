@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "log": "2023-10-02 05:49:00 FATAL [166.237.10.20] - File '/var/www/html/index.php' not found.",
+    "ip_candidates": "166.237.10.20",
+    "ip_address": [
+      "166.237.10.20"
+    ]
+  },
+  {
+    "id": 2,
+    "log": "2023-10-05 00:20:00 INFO [56.14.21.230] - Password reset requested.",
+    "ip_candidates": "56.14.21.230",
+    "ip_address": [
+      "56.14.21.230"
+    ]
+  },
+  {
+    "id": 3,
+    "log": "2023-10-01 10:59:00 WARN [42.249.213.8] - Failed to authenticate token.",
+    "ip_candidates": "42.249.213.8",
+    "ip_address": [
+      "42.249.213.8"
+    ]
+  },
+  {
+    "id": 4,
+    "log": "2023-10-04 13:24:00 ERROR [172.16.254.17] - User logged in successfully.",
+    "ip_candidates": "172.16.254.17",
+    "ip_address": [
+      "172.16.254.17"
+    ]
+  },
+  {
+    "id": 5,
+    "log": "2023-10-04 10:42:00 ERROR [174.165.46.80] - Successfully connected to third-party API.",
+    "ip_candidates": "174.165.46.80",
+    "ip_address": [
+      "174.165.46.80"
+    ]
+  },
+  {
+    "id": 6,
+    "log": "2023-10-02 14:07:00 ERROR [51.141.192.244] - Database connection failed due to timeout.",
+    "ip_candidates": "51.141.192.244",
+    "ip_address": [
+      "51.141.192.244"
+    ]
+  },
+  {
+    "id": 7,
+    "log": "2023-10-02 22:27:00 DEBUG [172.16.254.122] - Successfully connected to third-party API.",
+    "ip_candidates": "172.16.254.122",
+    "ip_address": [
+      "172.16.254.122"
+    ]
+  },
+  {
+    "id": 8,
+    "log": "2023-10-05 07:32:00 WARN [79.205.152.231] - Successfully connected to third-party API.",
+    "ip_candidates": "79.205.152.231",
+    "ip_address": [
+      "79.205.152.231"
+    ]
+  },
+  {
+    "id": 9,
+    "log": "2023-10-05 06:45:00 INFO [152.0.236.114] - Background job completed.",
+    "ip_candidates": "152.0.236.114",
+    "ip_address": [
+      "152.0.236.114"
+    ]
+  },
+  {
+    "id": 10,
+    "log": "2023-10-02 20:20:00 ERROR [10.0.0.76] - Password reset requested.",
+    "ip_candidates": "10.0.0.76",
+    "ip_address": [
+      "10.0.0.76"
+    ]
+  },
+  {
+    "id": 11,
+    "log": "2023-10-04 20:41:00 FATAL [178.94.22.219] - Failed to authenticate token.",
+    "ip_candidates": "178.94.22.219",
+    "ip_address": [
+      "178.94.22.219"
+    ]
+  },
+  {
+    "id": 12,
+    "log": "2023-10-03 01:58:00 FATAL [192.168.1.106] - Invalid credentials provided by client.",
+    "ip_candidates": "192.168.1.106",
+    "ip_address": [
+      "192.168.1.106"
+    ]
+  },
+  {
+    "id": 13,
+    "log": "2023-10-05 08:38:00 DEBUG [192.168.1.26] - Password reset requested.",
+    "ip_candidates": "192.168.1.26",
+    "ip_address": [
+      "192.168.1.26"
+    ]
+  },
+  {
+    "id": 14,
+    "log": "2023-10-03 07:19:00 DEBUG [116.191.163.190] - Successfully connected to third-party API.",
+    "ip_candidates": "116.191.163.190",
+    "ip_address": [
+      "116.191.163.190"
+    ]
+  },
+  {
+    "id": 15,
+    "log": "2023-10-05 01:43:00 FATAL [11.184.248.199] - Background job completed.",
+    "ip_candidates": "11.184.248.199",
+    "ip_address": [
+      "11.184.248.199"
+    ]
+  },
+  {
+    "id": 16,
+    "log": "2023-10-03 10:03:00 INFO [10.0.0.115] - File '/var/www/html/index.php' not found.",
+    "ip_candidates": "10.0.0.115",
+    "ip_address": [
+      "10.0.0.115"
+    ]
+  },
+  {
+    "id": 17,
+    "log": "2023-10-03 10:25:00 WARN [10.0.0.121] - Background job completed.",
+    "ip_candidates": "10.0.0.121",
+    "ip_address": [
+      "10.0.0.121"
+    ]
+  },
+  {
+    "id": 18,
+    "log": "2023-10-02 14:57:00 FATAL [192.168.1.213] - Session expired for user.",
+    "ip_candidates": "192.168.1.213",
+    "ip_address": [
+      "192.168.1.213"
+    ]
+  },
+  {
+    "id": 19,
+    "log": "2023-10-02 23:38:00 WARN [10.0.0.5] - New user registration.",
+    "ip_candidates": "10.0.0.5",
+    "ip_address": [
+      "10.0.0.5"
+    ]
+  },
+  {
+    "id": 20,
+    "log": "2023-10-01 19:49:00 WARN [119.220.135.147] - Password reset requested.",
+    "ip_candidates": "119.220.135.147",
+    "ip_address": [
+      "119.220.135.147"
+    ]
+  },
+  {
+    "id": 21,
+    "log": "2023-10-04 04:36:00 INFO [10.0.0.129] - Password reset requested.",
+    "ip_candidates": "10.0.0.129",
+    "ip_address": [
+      "10.0.0.129"
+    ]
+  },
+  {
+    "id": 22,
+    "log": "2023-10-03 22:45:00 INFO [29.252.177.99] - Successfully connected to third-party API.",
+    "ip_candidates": "29.252.177.99",
+    "ip_address": [
+      "29.252.177.99"
+    ]
+  },
+  {
+    "id": 23,
+    "log": "2023-10-02 11:11:00 FATAL [188.161.114.55] - Invalid credentials provided by client.",
+    "ip_candidates": "188.161.114.55",
+    "ip_address": [
+      "188.161.114.55"
+    ]
+  },
+  {
+    "id": 24,
+    "log": "2023-10-04 06:01:00 DEBUG [43.14.227.55] - Invalid credentials provided by client.",
+    "ip_candidates": "43.14.227.55",
+    "ip_address": [
+      "43.14.227.55"
+    ]
+  },
+  {
+    "id": 25,
+    "log": "2023-10-02 14:08:00 ERROR [219.25.59.222] - Successfully connected to third-party API.",
+    "ip_candidates": "219.25.59.222",
+    "ip_address": [
+      "219.25.59.222"
+    ]
+  },
+  {
+    "id": 26,
+    "log": "2023-10-01 08:17:00 DEBUG [215.238.239.115] - Session expired for user.",
+    "ip_candidates": "215.238.239.115",
+    "ip_address": [
+      "215.238.239.115"
+    ]
+  },
+  {
+    "id": 27,
+    "log": "2023-10-04 17:03:00 ERROR [150.120.2.184] - User logged in successfully.",
+    "ip_candidates": "150.120.2.184",
+    "ip_address": [
+      "150.120.2.184"
+    ]
+  },
+  {
+    "id": 28,
+    "log": "2023-10-04 11:47:00 FATAL [3.154.72.77] - Ping response received in 147ms.",
+    "ip_candidates": "3.154.72.77",
+    "ip_address": [
+      "3.154.72.77"
+    ]
+  },
+  {
+    "id": 29,
+    "log": "2023-10-04 16:26:00 WARN [190.31.240.46] - User logged in successfully.",
+    "ip_candidates": "190.31.240.46",
+    "ip_address": [
+      "190.31.240.46"
+    ]
+  },
+  {
+    "id": 30,
+    "log": "2023-10-03 09:01:00 DEBUG [90.218.101.67] - User logged in successfully.",
+    "ip_candidates": "90.218.101.67",
+    "ip_address": [
+      "90.218.101.67"
+    ]
+  },
+  {
+    "id": 31,
+    "log": "2023-10-02 08:28:00 ERROR [58.243.149.37] - File '/var/www/html/index.php' not found.",
+    "ip_candidates": "58.243.149.37",
+    "ip_address": [
+      "58.243.149.37"
+    ]
+  },
+  {
+    "id": 32,
+    "log": "2023-10-04 18:18:00 FATAL [10.224.139.96] - Ping response received in 166ms.",
+    "ip_candidates": "10.224.139.96",
+    "ip_address": [
+      "10.224.139.96"
+    ]
+  },
+  {
+    "id": 33,
+    "log": "2023-10-03 04:39:00 INFO [10.0.0.160] - Cache miss for key: user_profile_103.",
+    "ip_candidates": "10.0.0.160",
+    "ip_address": [
+      "10.0.0.160"
+    ]
+  },
+  {
+    "id": 34,
+    "log": "2023-10-02 23:39:00 INFO [144.70.158.216] - Session expired for user.",
+    "ip_candidates": "144.70.158.216",
+    "ip_address": [
+      "144.70.158.216"
+    ]
+  },
+  {
+    "id": 35,
+    "log": "2023-10-04 12:43:00 ERROR [192.168.1.142] - User logged in successfully.",
+    "ip_candidates": "192.168.1.142",
+    "ip_address": [
+      "192.168.1.142"
+    ]
+  },
+  {
+    "id": 36,
+    "log": "2023-10-02 06:53:00 ERROR [24.121.111.146] - Cache miss for key: user_profile_107.",
+    "ip_candidates": "24.121.111.146",
+    "ip_address": [
+      "24.121.111.146"
+    ]
+  },
+  {
+    "id": 37,
+    "log": "2023-10-03 10:18:00 ERROR [192.168.1.41] - Successfully connected to third-party API.",
+    "ip_candidates": "192.168.1.41",
+    "ip_address": [
+      "192.168.1.41"
+    ]
+  },
+  {
+    "id": 38,
+    "log": "2023-10-04 10:59:00 INFO [38.136.63.20] - File '/var/www/html/index.php' not found.",
+    "ip_candidates": "38.136.63.20",
+    "ip_address": [
+      "38.136.63.20"
+    ]
+  },
+  {
+    "id": 39,
+    "log": "2023-10-02 22:45:00 INFO [128.111.42.210] - Password reset requested.",
+    "ip_candidates": "128.111.42.210",
+    "ip_address": [
+      "128.111.42.210"
+    ]
+  },
+  {
+    "id": 40,
+    "log": "2023-10-01 09:17:00 FATAL [75.83.16.213] - Password reset requested.",
+    "ip_candidates": "75.83.16.213",
+    "ip_address": [
+      "75.83.16.213"
+    ]
+  },
+  {
+    "id": 41,
+    "log": "2023-10-02 15:24:00 INFO [192.168.1.77] - API rate limit exceeded.",
+    "ip_candidates": "192.168.1.77",
+    "ip_address": [
+      "192.168.1.77"
+    ]
+  },
+  {
+    "id": 42,
+    "log": "2023-10-04 12:23:00 FATAL [172.16.254.54] - Background job completed.",
+    "ip_candidates": "172.16.254.54",
+    "ip_address": [
+      "172.16.254.54"
+    ]
+  },
+  {
+    "id": 43,
+    "log": "2023-10-03 12:42:00 WARN [51.251.111.201] - Cache miss for key: user_profile_178.",
+    "ip_candidates": "51.251.111.201",
+    "ip_address": [
+      "51.251.111.201"
+    ]
+  },
+  {
+    "id": 44,
+    "log": "2023-10-02 12:26:00 ERROR [10.0.0.202] - Cache miss for key: user_profile_151.",
+    "ip_candidates": "10.0.0.202",
+    "ip_address": [
+      "10.0.0.202"
+    ]
+  },
+  {
+    "id": 45,
+    "log": "2023-10-03 12:33:00 FATAL [172.16.254.166] - Invalid credentials provided by client.",
+    "ip_candidates": "172.16.254.166",
+    "ip_address": [
+      "172.16.254.166"
+    ]
+  },
+  {
+    "id": 46,
+    "log": "2023-10-04 21:51:00 FATAL [10.0.0.217] - Payment processed successfully. Transaction ID: TXN-9894.",
+    "ip_candidates": "10.0.0.217",
+    "ip_address": [
+      "10.0.0.217"
+    ]
+  },
+  {
+    "id": 47,
+    "log": "2023-10-04 04:16:00 WARN [192.168.1.110] - Database connection failed due to timeout.",
+    "ip_candidates": "192.168.1.110",
+    "ip_address": [
+      "192.168.1.110"
+    ]
+  },
+  {
+    "id": 48,
+    "log": "2023-10-05 08:59:00 ERROR [172.16.254.220] - API rate limit exceeded.",
+    "ip_candidates": "172.16.254.220",
+    "ip_address": [
+      "172.16.254.220"
+    ]
+  },
+  {
+    "id": 49,
+    "log": "2023-10-04 21:26:00 ERROR [10.0.0.82] - Cache miss for key: user_profile_438.",
+    "ip_candidates": "10.0.0.82",
+    "ip_address": [
+      "10.0.0.82"
+    ]
+  },
+  {
+    "id": 50,
+    "log": "2023-10-04 03:35:00 ERROR [33.230.11.128] - Session expired for user.",
+    "ip_candidates": "33.230.11.128",
+    "ip_address": [
+      "33.230.11.128"
+    ]
+  }
+]

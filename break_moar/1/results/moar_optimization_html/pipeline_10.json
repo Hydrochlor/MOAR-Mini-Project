@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "raw_html": "a",
+    "clean_text": "a"
+  },
+  {
+    "id": 2,
+    "raw_html": "i",
+    "clean_text": "i"
+  },
+  {
+    "id": 3,
+    "raw_html": "l",
+    "clean_text": "l"
+  },
+  {
+    "id": 4,
+    "raw_html": "<blockquote>Just do it. <cite>- Jobs</cite></blockquote>",
+    "clean_text": "Just do it. - Jobs"
+  },
+  {
+    "id": 5,
+    "raw_html": "e",
+    "clean_text": "en"
+  },
+  {
+    "id": 6,
+    "raw_html": "<figure><img src='avatar.jpg' alt='Scenic View'><figcaption>Fig 1. Weekly Digest</figcaption></figure>",
+    "clean_text": "Fig 1. Weekly Digest"
+  },
+  {
+    "id": 7,
+    "raw_html": "<a href='https://demo.com' target='_blank'>Click here</a> to learn more about space exploration.",
+    "clean_text": "Click here to learn more about space exploration."
+  },
+  {
+    "id": 8,
+    "raw_html": "<a href='https://example.com' target='_blank'>Click here</a> to learn more about healthy eating.",
+    "clean_text": "Click here to learn more about healthy eating."
+  },
+  {
+    "id": 9,
+    "raw_html": "<footer>Contact us at <a href='mailto:admin@test.com'>admin@test.com</a></footer>",
+    "clean_text": "Contact us at admin@test.com"
+  },
+  {
+    "id": 10,
+    "raw_html": "<footer>Contact us at <a href='mailto:admin@sample.com'>admin@sample.com</a></footer>",
+    "clean_text": "Contact us at admin@sample.com"
+  },
+  {
+    "id": 11,
+    "raw_html": "e",
+    "clean_text": "e"
+  },
+  {
+    "id": 12,
+    "raw_html": "e",
+    "clean_text": "e"
+  },
+  {
+    "id": 13,
+    "raw_html": "<figure><img src='avatar.jpg' alt='Promotional Banner'><figcaption>Fig 1. Market Analysis</figcaption></figure>",
+    "clean_text": "Fig 1. Market Analysis"
+  },
+  {
+    "id": 14,
+    "raw_html": "t",
+    "clean_text": "t"
+  },
+  {
+    "id": 15,
+    "raw_html": "r",
+    "clean_text": "r"
+  },
+  {
+    "id": 16,
+    "raw_html": "e",
+    "clean_text": ""
+  },
+  {
+    "id": 17,
+    "raw_html": "e",
+    "clean_text": "e"
+  },
+  {
+    "id": 18,
+    "raw_html": "<figure><img src='splash.jpg' alt='Company Logo'><figcaption>Fig 1. Industry News</figcaption></figure>",
+    "clean_text": "Fig 1. Industry News"
+  },
+  {
+    "id": 19,
+    "raw_html": "e",
+    "clean_text": "e"
+  },
+  {
+    "id": 20,
+    "raw_html": "t",
+    "clean_text": ""
+  },
+  {
+    "id": 21,
+    "raw_html": "r",
+    "clean_text": "<html>\n<head>\n    <title>Sample Page</title>\n</head>\n<body>\n    <h1>This is a Heading</h1>\n    <p>This is a paragraph.</p>\n    <a href=\"https://www.example.com\">This is a link</a>\n</body>\n</html>"
+  },
+  {
+    "id": 22,
+    "raw_html": "<form action='/submit' method='post'><input type='text' name='user' value='Bob'><input type='submit' value='Submit'></form> Please fill the form.",
+    "clean_text": "Please fill the form."
+  },
+  {
+    "id": 23,
+    "raw_html": "<a href='https://demo.com' target='_blank'>Click here</a> to learn more about budgeting.",
+    "clean_text": "Click here to learn more about budgeting."
+  },
+  {
+    "id": 24,
+    "raw_html": "r",
+    "clean_text": "html><head><title>Sample Page</title></head><body><h1>Welcome to the Sample Page</h1><p>This is a sample paragraph with some <strong>bold</strong> text and some <em>italic</em> text. Enjoy browsing!</p><!-- This is a comment and should be ignored --><a href=\"http://example.com\">Visit Example.com</a></body></html>"
+  },
+  {
+    "id": 25,
+    "raw_html": "<script>console.log('User logged in: Bob');</script>Please ignore the script tag.",
+    "clean_text": "Please ignore the script tag."
+  },
+  {
+    "id": 26,
+    "raw_html": "a",
+    "clean_text": "a"
+  },
+  {
+    "id": 27,
+    "raw_html": "<form action='/submit' method='post'><input type='text' name='user' value='Grace'><input type='submit' value='Submit'></form> Please fill the form.",
+    "clean_text": " Please fill the form."
+  },
+  {
+    "id": 28,
+    "raw_html": "s",
+    "clean_text": "\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n    <h1>Welcome to My Website</h1>\n    <p>This is a paragraph of text that provides information about the website.</p>\n    <ul>\n        <li>Home</li>\n        <li>About</li>\n        <li>Contact</li>\n    </ul>\n    <p>Feel free to browse and learn more about us.</p>\n</body>\n</html>\n"
+  },
+  {
+    "id": 29,
+    "raw_html": "e",
+    "clean_text": "The input appears to be incomplete or erroneous."
+  },
+  {
+    "id": 30,
+    "raw_html": "l",
+    "clean_text": "A Comprehensive Guide to Web Scraping\n\nWeb scraping is an essential skill for anyone looking to extract data from websites. Whether you're a data scientist, analyst, or developer, learning how to scrape the web is incredibly useful.\n\nIntroduction to Web Scraping\n\nWeb scraping involves extracting information from web pages. It's a powerful technique used in data collection, lead generation, and more. This guide will introduce you to web scraping and show you how to get started.\n\nWhy Web Scraping?\n\nMany organizations rely on web scraping to gather data that drives business decisions. The ability to automate the collection of this data saves time and makes the process much more efficient.\n\nTools and Techniques\n\n1. BeautifulSoup\nBeautifulSoup is a Python library that makes it easy to scrape information from web pages. It creates parse trees from page sources that can be used to extract data.\n\n2. Scrapy\nScrapy is an open-source web crawling framework for Python. It's used to carefully scrape and structure data from websites. Scrapy is widely used for large-scale web scraping projects.\n\n3. Selenium\nSelenium is a tool for automating web browsers. It's often used for testing web applications, but also for scraping complex websites with JavaScript content.\n\nGetting Started with Web Scraping\n\nStart by choosing a tool that fits your needs. If you're working with simple pages, BeautifulSoup will suffice. For more complex scenarios, consider Scrapy or Selenium.\n\nBest Practices\n\n- Respect website rules: Always check a website's terms of service.\n- Use APIs: If available, use an API instead of scraping.\n- Avoid overloading servers: Implement delays between requests.\n\nConclusion\nWeb scraping is a valuable tool for any data-driven individual looking to harness the vast information available online. With the right tools and techniques, you can efficiently collect the data you need.\n\nHappy Scraping!"
+  },
+  {
+    "id": 31,
+    "raw_html": "e",
+    "clean_text": "<html><head><title>Test Page</title></head><body><p>This is a paragraph.</p><div>Here is some more text inside a div.</div><footer>Footer information here.</footer></body></html>"
+  },
+  {
+    "id": 32,
+    "raw_html": "<blockquote>E=mc2 <cite>- Jobs</cite></blockquote>",
+    "clean_text": "E=mc2 - Jobs"
+  },
+  {
+    "id": 33,
+    "raw_html": "<a href='https://sample.com' target='_blank'>Click here</a> to learn more about space exploration.",
+    "clean_text": "Click here to learn more about space exploration."
+  },
+  {
+    "id": 34,
+    "raw_html": "i",
+    "clean_text": "i"
+  },
+  {
+    "id": 35,
+    "raw_html": "r",
+    "clean_text": "This New York based company focuses on remote work solutions. Get in touch via our Contact Page.  Copyright \u00a9 2021 Remote Solutions Inc. - All Rights Reserved. Privacy Policy"
+  },
+  {
+    "id": 36,
+    "raw_html": "r",
+    "clean_text": "Welcome to our website! Visit our About Us page to learn more about what we do. Contact us for more information at contact@example.com."
+  },
+  {
+    "id": 37,
+    "raw_html": "<form action='/submit' method='post'><input type='text' name='user' value='Alice'><input type='submit' value='Submit'></form> Please fill the form.",
+    "clean_text": "Please fill the form."
+  },
+  {
+    "id": 38,
+    "raw_html": "r",
+    "clean_text": "<html><head><title>Sample Page</title></head><body><h1>Welcome to My Homepage</h1><p>Hello, world!</p><p>This is a <a href='https://example.com'>link</a> in a paragraph.</p><ul><li>First item</li><li>Second item</li><li>Third item</li></ul><footer>Contact us at <a href='mailto:info@example.com'>info@example.com</a>.</footer></body></html>"
+  },
+  {
+    "id": 39,
+    "raw_html": "e",
+    "clean_text": "e"
+  },
+  {
+    "id": 40,
+    "raw_html": "<span style='color: green;'>Error 400:</span> Bad gateway.",
+    "clean_text": "Error 400: Bad gateway."
+  },
+  {
+    "id": 41,
+    "raw_html": "<img src='logo.png' alt='Scenic View'> Welcome to the portal, Bob.",
+    "clean_text": "Welcome to the portal, Bob."
+  },
+  {
+    "id": 42,
+    "raw_html": "<img src='avatar.png' alt='Promotional Banner'> Welcome to the portal, Alice.",
+    "clean_text": " Welcome to the portal, Alice."
+  },
+  {
+    "id": 43,
+    "raw_html": "<table border='1'><tr><th>Name</th><th>Age</th><th>City</th></tr><tr><td>Eve</td><td>25</td><td>Paris</td></tr></table>",
+    "clean_text": "Name\nAge\nCity\nEve\n25\nParis"
+  },
+  {
+    "id": 44,
+    "raw_html": "<table border='1'><tr><th>Name</th><th>Age</th><th>City</th></tr><tr><td>Bob</td><td>45</td><td>Berlin</td></tr></table>",
+    "clean_text": "Name Age City Bob 45 Berlin"
+  },
+  {
+    "id": 45,
+    "raw_html": "r",
+    "clean_text": "<html>\n<head>\n    <title>Sample Web Page</title>\n</head>\n<body>\n    <h1>Welcome to the Sample Web Page</h1>\n    <p>This is a sample paragraph with <strong>some bold text</strong> and an <a href=\"https://example.com\">example link</a>.</p>\n    <ul>\n        <li>List item 1</li>\n        <li>List item 2</li>\n        <li>List item 3</li>\n    </ul>\n</body>\n</html>"
+  },
+  {
+    "id": 46,
+    "raw_html": "<script>console.log('User logged in: Alice');</script>Please ignore the script tag.",
+    "clean_text": "Please ignore the script tag."
+  },
+  {
+    "id": 47,
+    "raw_html": "<img src='background.png' alt='Scenic View'> Welcome to the portal, Bob.",
+    "clean_text": "Welcome to the portal, Bob."
+  },
+  {
+    "id": 48,
+    "raw_html": "e",
+    "clean_text": "e"
+  },
+  {
+    "id": 49,
+    "raw_html": "r",
+    "clean_text": "\n<!DOCTYPE html>\n<html>\n<head>\n<title>Page Title</title>\n</head>\n<body>\n<h1>This is a Heading</h1>\n<p>This is a paragraph.</p>\n<a href=\"https://www.example.com\">This is a link</a>\n</body>\n</html>\n"
+  },
+  {
+    "id": 50,
+    "raw_html": "<footer>Contact us at <a href='mailto:admin@store.com'>admin@store.com</a></footer>",
+    "clean_text": "Contact us at admin@store.com"
+  }
+]
